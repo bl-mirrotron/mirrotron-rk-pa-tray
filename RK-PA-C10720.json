@@ -4,6 +4,7 @@
   "arcPeriod": 60000,
   "timeStamp": 1624548582087,
   "lastArchive": 1624548570480,
+  "settingInProgress": 0,
   "reset": {
     "action": "setting",
     "type": "scalar",
@@ -24,18 +25,18 @@
       }
     }
   },
-  "loopDelay": {
-    "action": "setting",
+  "linkQuality": {
+    "action": "reading",
     "type": "scalar",
-    "value": 2000,
-    "unit": "mS",
+    "value": null,
+    "unit": "/70",
     "alarm": {
       "value": 0,
       "limits": {
-        "lolo": 100,
-        "low": 100,
-        "high": 20000,
-        "hihi": 20000
+        "lolo": -1,
+        "low": -1,
+        "high": 100,
+        "hihi": 100
       },
       "notify": {
         "name": "",
@@ -44,18 +45,18 @@
       }
     }
   },
-  "settingInProgress": {
-    "action": "setting",
+  "signalLevel": {
+    "action": "reading",
     "type": "scalar",
-    "value": 0,
-    "unit": "unit",
+    "value": null,
+    "unit": "dBm",
     "alarm": {
       "value": 0,
       "limits": {
-        "lolo": -1,
-        "low": -1,
-        "high": 2,
-        "hihi": 2
+        "lolo": -100,
+        "low": -100,
+        "high": 30,
+        "hihi": 30
       },
       "notify": {
         "name": "",
