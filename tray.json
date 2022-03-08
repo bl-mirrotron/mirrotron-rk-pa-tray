@@ -1,75 +1,13 @@
 {
-  "deviceType": "RK-PA",
+  "type": "RK-PA",
   "name": "C10720",
   "arcPeriod": 60000,
-  "timeStamp": 1624548582087,
-  "lastArchive": 1624548570480,
-  "settingInProgress": 0,
-  "reset": {
-    "action": "setting",
-    "type": "scalar",
-    "value": 0,
-    "unit": "unit",
-    "alarm": {
-      "value": 0,
-      "limits": {
-        "lolo": -1,
-        "low": -1,
-        "high": 2,
-        "hihi": 2
-      },
-      "notify": {
-        "name": "",
-        "number": "",
-        "time": 0
-      }
-    }
-  },
-  "linkQuality": {
-    "action": "reading",
-    "type": "scalar",
-    "value": null,
-    "unit": "/70",
-    "alarm": {
-      "value": 0,
-      "limits": {
-        "lolo": -1,
-        "low": -1,
-        "high": 100,
-        "hihi": 100
-      },
-      "notify": {
-        "name": "",
-        "number": "",
-        "time": 0
-      }
-    }
-  },
-  "signalLevel": {
-    "action": "reading",
-    "type": "scalar",
-    "value": null,
-    "unit": "dBm",
-    "alarm": {
-      "value": 0,
-      "limits": {
-        "lolo": -100,
-        "low": -100,
-        "high": 30,
-        "hihi": 30
-      },
-      "notify": {
-        "name": "",
-        "number": "",
-        "time": 0
-      }
-    }
-  },
+  "timeStamp": 1646749878648,
   "IOState": {
     "action": "setting",
     "type": "scalar",
     "value": 1,
-    "unit": "unit",
+    "unit": "",
     "alarm": {
       "value": 0,
       "limits": {
@@ -89,7 +27,7 @@
     "action": "setting",
     "type": "scalar",
     "value": 1,
-    "unit": "unit",
+    "unit": "",
     "alarm": {
       "value": 0,
       "limits": {
@@ -109,7 +47,7 @@
     "action": "setting",
     "type": "scalar",
     "value": 1,
-    "unit": "unit",
+    "unit": "",
     "alarm": {
       "value": 0,
       "limits": {
@@ -128,8 +66,8 @@
   "resetAlarm": {
     "action": "setting",
     "type": "scalar",
-    "value": 0,
-    "unit": "unit",
+    "value": 1,
+    "unit": "",
     "alarm": {
       "value": 0,
       "limits": {
@@ -149,7 +87,7 @@
     "action": "setting",
     "type": "scalar",
     "value": 0,
-    "unit": "unit",
+    "unit": "",
     "alarm": {
       "value": 0,
       "limits": {
@@ -188,10 +126,10 @@
   "alarmCode": {
     "action": "reading",
     "type": "scalar",
-    "value": 0,
-    "unit": "unit",
+    "value": 6,
+    "unit": "",
     "alarm": {
-      "value": 0,
+      "value": 4,
       "limits": {
         "lolo": -1,
         "low": -1,
@@ -209,7 +147,7 @@
     "action": "reading",
     "type": "scalar",
     "value": 0,
-    "unit": "unit",
+    "unit": "",
     "alarm": {
       "value": 0,
       "limits": {
@@ -229,7 +167,7 @@
     "action": "reading",
     "type": "scalar",
     "value": 1,
-    "unit": "unit",
+    "unit": "",
     "alarm": {
       "value": 0,
       "limits": {
@@ -249,7 +187,7 @@
     "action": "reading",
     "type": "scalar",
     "value": 1,
-    "unit": "unit",
+    "unit": "",
     "alarm": {
       "value": 0,
       "limits": {
@@ -269,7 +207,7 @@
     "action": "reading",
     "type": "scalar",
     "value": 1,
-    "unit": "unit",
+    "unit": "",
     "alarm": {
       "value": 0,
       "limits": {
@@ -311,12 +249,12 @@
     "value": 285,
     "unit": "kW",
     "alarm": {
-      "value": 0,
+      "value": 4,
       "limits": {
         "lolo": -1,
         "low": -1,
-        "high": 285,
-        "hihi": 300
+        "high": 50,
+        "hihi": 100
       },
       "notify": {
         "name": "",
