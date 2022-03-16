@@ -997,13 +997,13 @@
         "z": "85e21fcb925ef32f",
         "name": "read tray config in",
         "links": [
-            "961b85c2472cee35"
+            "805b810bf56a256b"
         ],
-        "x": 935,
+        "x": 695,
         "y": 100,
         "wires": [
             [
-                "5e7d2de841bcb0c1"
+                "30f384ea.cf21fc"
             ]
         ]
     },
@@ -1437,7 +1437,7 @@
         "z": "85e21fcb925ef32f",
         "g": "40e56362c23599cc",
         "name": "Init Gizmo",
-        "func": "var tray = global.get('tray');\nvar deviceInit = global.get('deviceInit');\nif (deviceInit == 1) //tray rebooted\n{\n    \n}\nif (deviceInit == 2) //device rebooted\n{\n    \n}\n\nvar msgs = [];\nmsgs[0] = { value: tray.IOState.value,    'fc': 0x6, 'unitid': 1, 'address': 1 , 'quantity': 1 };\n//msgs[1] = { value: tray.powerOn.value,    'fc': 0x6, 'unitid': 1, 'address': 2 , 'quantity': 1 };\n//msgs[2] = { value: tray.rfOn.value,       'fc': 0x6, 'unitid': 1, 'address': 3 , 'quantity': 1 };\n//msgs[3] = { value: tray.resetAlarm.value, 'fc': 0x6, 'unitid': 1, 'address': 4 , 'quantity': 1 };\n//msgs[4] = { value: tray.resetAll.value,   'fc': 0x6, 'unitid': 1, 'address': 5 , 'quantity': 1 };\n//must be the last!\n//msgs[5] = { address: -1 };\nmsgs[1] = { address: -1 };\nreturn {topic : 'initDevice', payload: msgs};\n\n",
+        "func": "var tray = global.get('tray');\nvar deviceInit = global.get('deviceInit');\nif (deviceInit == 1) //tray rebooted\n{\n    tray.IOState.value = 1;\n    tray.powerOn.value = 0;\n    tray.rfOn.value = 0;\n}\nif (deviceInit == 2) //device rebooted\n{\n    tray.IOState.value = 1;\n    tray.powerOn.value = 0;\n    tray.rfOn.value = 0;\n}\n\nvar msgs = [];\nmsgs[0] = { value: tray.IOState.value,    'fc': 0x6, 'unitid': 1, 'address': 1 , 'quantity': 1 };\n//msgs[1] = { value: tray.powerOn.value,    'fc': 0x6, 'unitid': 1, 'address': 2 , 'quantity': 1 };\n//msgs[2] = { value: tray.rfOn.value,       'fc': 0x6, 'unitid': 1, 'address': 3 , 'quantity': 1 };\n//msgs[3] = { value: tray.resetAlarm.value, 'fc': 0x6, 'unitid': 1, 'address': 4 , 'quantity': 1 };\n//msgs[4] = { value: tray.resetAll.value,   'fc': 0x6, 'unitid': 1, 'address': 5 , 'quantity': 1 };\n//must be the last!\n//msgs[5] = { address: -1 };\nmsgs[1] = { address: -1 };\nreturn {topic : 'initDevice', payload: msgs};\n\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -1483,8 +1483,8 @@
         "z": "85e21fcb925ef32f",
         "g": "cc88dacde90c32cd",
         "name": "Create Readings",
-        "func": "var tray = global.get('tray');\ntray.timeStamp = new Date().getTime();\nvar newData = true;\ntray.IOState.value        = msg.payload[0];\ntray.powerOn.value        = msg.payload[1];\ntray.rfOn.value           = msg.payload[2];\ntray.resetAlarm.value     = msg.payload[3];\ntray.resetAll.value       = msg.payload[4];\ntray.watchDog.value       = msg.payload[9];\ntray.alarmCode.value      = msg.payload[10];\ntray.warningCode.value    = msg.payload[11];\ntray.powerStatus.value    = msg.payload[12];\ntray.rfStatus.value       = msg.payload[13];\ntray.remoteStatus.value   = msg.payload[14];\ntray.forwardPower.value   = msg.payload[15];\ntray.reversePower.value   = msg.payload[16];\n\nreturn  {topic:msg.topic, payload:newData}\n",
-        "outputs": 1,
+        "func": "var tray = global.get('tray');\ntray.timeStamp = new Date().getTime();\nvar newData = true;\ntray.IOState.value        = msg.payload[0];\ntray.powerOn.value        = msg.payload[1];\ntray.rfOn.value           = msg.payload[2];\ntray.resetAlarm.value     = msg.payload[3];\ntray.resetAll.value       = msg.payload[4];\ntray.watchDog.value       = msg.payload[9];\ntray.alarmCode.value      = msg.payload[10];\ntray.warningCode.value    = msg.payload[11];\ntray.powerStatus.value    = msg.payload[12];\ntray.rfStatus.value       = msg.payload[13];\ntray.remoteStatus.value   = msg.payload[14];\ntray.forwardPower.value   = msg.payload[15];\ntray.reversePower.value   = msg.payload[16];\n\nif (tray.IOState.value == 0) \n{   node.warn('Setting IO state to 1 ');\n    return [null, {topic:msg.topic, payload:tray}];\n}\n\nreturn  [{topic:msg.topic,  payload:newData}, null];\n",
+        "outputs": 2,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -1494,6 +1494,9 @@
         "wires": [
             [
                 "99fbe8135d0ce161"
+            ],
+            [
+                "805b810bf56a256b"
             ]
         ]
     },
@@ -1826,6 +1829,19 @@
                 "1fd91edeac137bd7"
             ]
         ]
+    },
+    {
+        "id": "805b810bf56a256b",
+        "type": "link out",
+        "z": "85e21fcb925ef32f",
+        "name": "reset IOState",
+        "mode": "link",
+        "links": [
+            "5aebb0b38ba2e191"
+        ],
+        "x": 915,
+        "y": 680,
+        "wires": []
     },
     {
         "id": "1b9d5aa7e47daa0c",
