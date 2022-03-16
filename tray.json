@@ -1,8 +1,8 @@
 {
-  "type": "RK-PA",
-  "name": "C10720",
+  "type": "rk-pa",
+  "name": "01",
   "arcPeriod": 60000,
-  "timeStamp": 1646749878648,
+  "timeStamp": 1647430008229,
   "IOState": {
     "action": "setting",
     "type": "scalar",
@@ -26,7 +26,7 @@
   "powerOn": {
     "action": "setting",
     "type": "scalar",
-    "value": 1,
+    "value": 0,
     "unit": "",
     "alarm": {
       "value": 0,
@@ -46,7 +46,7 @@
   "rfOn": {
     "action": "setting",
     "type": "scalar",
-    "value": 1,
+    "value": 0,
     "unit": "",
     "alarm": {
       "value": 0,
@@ -66,7 +66,7 @@
   "resetAlarm": {
     "action": "setting",
     "type": "scalar",
-    "value": 1,
+    "value": 0,
     "unit": "",
     "alarm": {
       "value": 0,
@@ -106,7 +106,7 @@
   "watchDog": {
     "action": "reading",
     "type": "scalar",
-    "value": 128,
+    "value": 125,
     "unit": "Hz",
     "alarm": {
       "value": 0,
@@ -126,10 +126,10 @@
   "alarmCode": {
     "action": "reading",
     "type": "scalar",
-    "value": 6,
+    "value": 0,
     "unit": "",
     "alarm": {
-      "value": 4,
+      "value": 0,
       "limits": {
         "lolo": -1,
         "low": -1,
@@ -146,10 +146,10 @@
   "warningCode": {
     "action": "reading",
     "type": "scalar",
-    "value": 0,
+    "value": 9095,
     "unit": "",
     "alarm": {
-      "value": 0,
+      "value": 4,
       "limits": {
         "lolo": -1,
         "low": -1,
@@ -186,7 +186,7 @@
   "rfStatus": {
     "action": "reading",
     "type": "scalar",
-    "value": 1,
+    "value": 0,
     "unit": "",
     "alarm": {
       "value": 0,
@@ -226,7 +226,7 @@
   "forwardPower": {
     "action": "reading",
     "type": "scalar",
-    "value": 300,
+    "value": 0,
     "unit": "kW",
     "alarm": {
       "value": 0,
@@ -246,10 +246,10 @@
   "reversePower": {
     "action": "reading",
     "type": "scalar",
-    "value": 285,
+    "value": 0,
     "unit": "kW",
     "alarm": {
-      "value": 4,
+      "value": 0,
       "limits": {
         "lolo": -1,
         "low": -1,
