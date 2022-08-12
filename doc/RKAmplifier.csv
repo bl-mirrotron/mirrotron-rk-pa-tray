@@ -1,0 +1,1005 @@
+Address,Description,Write,MaxDisplay,Multiplier,Unit,Low,High,Value,Comment
+1,Relay IO / Modbus,TRUE,1,none,none,none,none,1,0: Relay I/O (default) & 1: Modbus TCP
+2,Power ON/OFF,TRUE,1,none,none,none,none,1,0: OFF (default) & 1: ON
+3,RF ON/OFF,TRUE,1,none,none,none,none,1,0: OFF (default) & 1: ON
+4,Reset Alarm,TRUE,1,none,none,none,none,0,0: Done (default) & 1: Reset in progress
+5,Reset All,TRUE,1,none,none,none,none,0,0: Done (default) & 1: Reset in progress
+6,none,none,none,none,none,none,none,none,none
+7,none,none,none,none,none,none,none,none,none
+8,none,none,none,none,none,none,none,none,none
+9,none,none,none,none,none,none,none,none,none
+10,Watchdog counter,FALSE,255,none,n/a,none,none,128,1/sec
+11,Alarm code,FALSE,9090,none,n/a,none,none,0,0: No alarm & Others: Refer to the instruction manual
+12,Warning code,FALSE,9091,none,n/a,none,none,0,0: No warning & Others: Refer to the instruction manual
+13,Power ON/OFF Status,FALSE,1,none,none,none,none,1,0: OFF & 1: ON
+14,RF ON/OFF Status,FALSE,1,none,none,none,none,1,0: OFF & 1: ON
+15,Remote / Local,FALSE,1,none,none,none,none,1,0: Local & 1: Remote
+16,Forward Power,FALSE,3500,0.1,kW,none,315,3000,Status Value
+17,Reflected Power,FALSE,3500,0.1,kW,none,285,2850,Status Value
+18,Rack1 Inlet LCW Water flow rate,FALSE,99,1,L/min.,3,none,4,Status Value
+19,Rack1 Inlet LCW Temperature,FALSE,99,1,deg.C,none,38,30,Status Value
+20,Rack1 Outlet LCW Water flow rate1,FALSE,99,1,L/min.,1,none,2,Status Value
+21,Rack1 Outlet LCW Temperature1,FALSE,99,1,deg.C,none,45,31,Status Value
+22,Rack1 Outlet LCW Water flow rate2,FALSE,99,1,L/min.,1,none,3,Status Value
+23,Rack1 Outlet LCW Temperature2,FALSE,99,1,deg.C,none,45,32,Status Value
+24,Rack1 Outlet LCW Water flow rate3,FALSE,99,1,L/min.,1,none,2,Status Value
+25,Rack1 Outlet LCW Temperature3,FALSE,99,1,deg.C,none,45,33,Status Value
+26,Rack2 Inlet LCW Water flow rate,FALSE,99,1,L/min.,4,none,6,Status Value
+27,Rack2 Inlet LCW Temperature,FALSE,99,1,deg.C,none,38,34,Status Value
+28,Rack2 Outlet LCW Water flow rate1,FALSE,99,1,L/min.,1,none,3,Status Value
+29,Rack2 Outlet LCW Temperature1,FALSE,99,1,deg.C,none,45,35,Status Value
+30,Rack2 Outlet LCW Water flow rate2,FALSE,99,1,L/min.,1,none,2,Status Value
+31,Rack2 Outlet LCW Temperature2,FALSE,99,1,deg.C,none,45,36,Status Value
+32,Rack2 Outlet LCW Water flow rate3,FALSE,99,1,L/min.,1,none,3,Status Value
+33,Rack2 Outlet LCW Temperature3,FALSE,99,1,deg.C,none,45,37,Status Value
+34,Rack2 Outlet LCW Water flow rate4,FALSE,99,1,L/min.,1,none,3,Status Value
+35,Rack2 Outlet LCW Temperature4,FALSE,99,1,deg.C,none,45,38,Status Value
+36,Controller CPU Version,FALSE,9999,0.01,none,none,none,110,Status Value
+37,Controller FPGA1 Version,FALSE,9999,0.01,none,none,none,110,Status Value
+38,Controller FPGA2 Version,FALSE,9999,0.01,none,none,none,110,Status Value
+39,none,FALSE,none,none,none,none,none,none,none
+40,FA1 Voltage1,FALSE,999,0.1,V,45,55,488,Status Value
+41,FA1 Voltage2,FALSE,999,0.1,V,45,55,493,Status Value
+42,FA1 Voltage3,FALSE,999,0.1,V,45,55,480,Status Value
+43,FA1 Voltage4,FALSE,999,0.1,V,45,55,493,Status Value
+44,FA1 Current1,FALSE,666,0.1,A,5,55,235,Status Value
+45,FA1 Current2,FALSE,666,0.1,A,5,55,256,Status Value
+46,FA1 Current3,FALSE,666,0.1,A,5,55,297,Status Value
+47,FA1 Current4,FALSE,666,0.1,A,5,55,271,Status Value
+48,FA1 Temperature,FALSE,700,0.1,deg.C,20,55,291,Status Value
+49,FA1 FPGA Version,FALSE,9999,0.01,none,0,none,110,Status Value
+50,FA2 Voltage1,FALSE,999,0.1,V,45,55,492,Status Value
+51,FA2 Voltage2,FALSE,999,0.1,V,45,55,487,Status Value
+52,FA2 Voltage3,FALSE,999,0.1,V,45,55,480,Status Value
+53,FA2 Voltage4,FALSE,999,0.1,V,45,55,475,Status Value
+54,FA2 Current1,FALSE,666,0.1,A,5,55,236,Status Value
+55,FA2 Current2,FALSE,666,0.1,A,5,55,175,Status Value
+56,FA2 Current3,FALSE,666,0.1,A,5,55,240,Status Value
+57,FA2 Current4,FALSE,666,0.1,A,5,55,357,Status Value
+58,FA2 Temperature,FALSE,700,0.1,deg.C,20,55,441,Status Value
+59,FA2 FPGA Version,FALSE,9999,0.01,none,0,none,110,Status Value
+60,FA3 Voltage1,FALSE,999,0.1,V,45,55,482,Status Value
+61,FA3 Voltage2,FALSE,999,0.1,V,45,55,514,Status Value
+62,FA3 Voltage3,FALSE,999,0.1,V,45,55,477,Status Value
+63,FA3 Voltage4,FALSE,999,0.1,V,45,55,504,Status Value
+64,FA3 Current1,FALSE,666,0.1,A,5,55,342,Status Value
+65,FA3 Current2,FALSE,666,0.1,A,5,55,270,Status Value
+66,FA3 Current3,FALSE,666,0.1,A,5,55,385,Status Value
+67,FA3 Current4,FALSE,666,0.1,A,5,55,287,Status Value
+68,FA3 Temperature,FALSE,700,0.1,deg.C,20,55,299,Status Value
+69,FA3 FPGA Version,FALSE,9999,0.01,none,0,none,110,Status Value
+70,FA4 Voltage1,FALSE,999,0.1,V,45,55,500,Status Value
+71,FA4 Voltage2,FALSE,999,0.1,V,45,55,504,Status Value
+72,FA4 Voltage3,FALSE,999,0.1,V,45,55,517,Status Value
+73,FA4 Voltage4,FALSE,999,0.1,V,45,55,494,Status Value
+74,FA4 Current1,FALSE,666,0.1,A,5,55,300,Status Value
+75,FA4 Current2,FALSE,666,0.1,A,5,55,388,Status Value
+76,FA4 Current3,FALSE,666,0.1,A,5,55,211,Status Value
+77,FA4 Current4,FALSE,666,0.1,A,5,55,409,Status Value
+78,FA4 Temperature,FALSE,700,0.1,deg.C,20,55,447,Status Value
+79,FA4 FPGA Version,FALSE,9999,0.01,none,0,none,110,Status Value
+80,FA5 Voltage1,FALSE,999,0.1,V,45,55,479,Status Value
+81,FA5 Voltage2,FALSE,999,0.1,V,45,55,502,Status Value
+82,FA5 Voltage3,FALSE,999,0.1,V,45,55,511,Status Value
+83,FA5 Voltage4,FALSE,999,0.1,V,45,55,491,Status Value
+84,FA5 Current1,FALSE,666,0.1,A,5,55,182,Status Value
+85,FA5 Current2,FALSE,666,0.1,A,5,55,377,Status Value
+86,FA5 Current3,FALSE,666,0.1,A,5,55,399,Status Value
+87,FA5 Current4,FALSE,666,0.1,A,5,55,228,Status Value
+88,FA5 Temperature,FALSE,700,0.1,deg.C,20,55,413,Status Value
+89,FA5 FPGA Version,FALSE,9999,0.01,none,0,none,110,Status Value
+90,FA6 Voltage1,FALSE,999,0.1,V,45,55,519,Status Value
+91,FA6 Voltage2,FALSE,999,0.1,V,45,55,522,Status Value
+92,FA6 Voltage3,FALSE,999,0.1,V,45,55,509,Status Value
+93,FA6 Voltage4,FALSE,999,0.1,V,45,55,514,Status Value
+94,FA6 Current1,FALSE,666,0.1,A,5,55,201,Status Value
+95,FA6 Current2,FALSE,666,0.1,A,5,55,185,Status Value
+96,FA6 Current3,FALSE,666,0.1,A,5,55,307,Status Value
+97,FA6 Current4,FALSE,666,0.1,A,5,55,366,Status Value
+98,FA6 Temperature,FALSE,700,0.1,deg.C,20,55,332,Status Value
+99,FA6 FPGA Version,FALSE,9999,0.01,none,0,none,110,Status Value
+100,FA7 Voltage1,FALSE,999,0.1,V,45,55,515,Status Value
+101,FA7 Voltage2,FALSE,999,0.1,V,45,55,499,Status Value
+102,FA7 Voltage3,FALSE,999,0.1,V,45,55,481,Status Value
+103,FA7 Voltage4,FALSE,999,0.1,V,45,55,511,Status Value
+104,FA7 Current1,FALSE,666,0.1,A,5,55,344,Status Value
+105,FA7 Current2,FALSE,666,0.1,A,5,55,192,Status Value
+106,FA7 Current3,FALSE,666,0.1,A,5,55,280,Status Value
+107,FA7 Current4,FALSE,666,0.1,A,5,55,416,Status Value
+108,FA7 Temperature,FALSE,700,0.1,deg.C,20,55,448,Status Value
+109,FA7 FPGA Version,FALSE,9999,0.01,none,0,none,110,Status Value
+110,FA8 Voltage1,FALSE,999,0.1,V,45,55,487,Status Value
+111,FA8 Voltage2,FALSE,999,0.1,V,45,55,511,Status Value
+112,FA8 Voltage3,FALSE,999,0.1,V,45,55,478,Status Value
+113,FA8 Voltage4,FALSE,999,0.1,V,45,55,497,Status Value
+114,FA8 Current1,FALSE,666,0.1,A,5,55,376,Status Value
+115,FA8 Current2,FALSE,666,0.1,A,5,55,417,Status Value
+116,FA8 Current3,FALSE,666,0.1,A,5,55,344,Status Value
+117,FA8 Current4,FALSE,666,0.1,A,5,55,300,Status Value
+118,FA8 Temperature,FALSE,700,0.1,deg.C,20,55,441,Status Value
+119,FA8 FPGA Version,FALSE,9999,0.01,none,0,none,110,Status Value
+120,FA9 Voltage1,FALSE,999,0.1,V,45,55,504,Status Value
+121,FA9 Voltage2,FALSE,999,0.1,V,45,55,488,Status Value
+122,FA9 Voltage3,FALSE,999,0.1,V,45,55,523,Status Value
+123,FA9 Voltage4,FALSE,999,0.1,V,45,55,506,Status Value
+124,FA9 Current1,FALSE,666,0.1,A,5,55,385,Status Value
+125,FA9 Current2,FALSE,666,0.1,A,5,55,227,Status Value
+126,FA9 Current3,FALSE,666,0.1,A,5,55,221,Status Value
+127,FA9 Current4,FALSE,666,0.1,A,5,55,187,Status Value
+128,FA9 Temperature,FALSE,700,0.1,deg.C,20,55,324,Status Value
+129,FA9 FPGA Version,FALSE,9999,0.01,none,0,none,110,Status Value
+130,FA10 Voltage1,FALSE,999,0.1,V,45,55,476,Status Value
+131,FA10 Voltage2,FALSE,999,0.1,V,45,55,478,Status Value
+132,FA10 Voltage3,FALSE,999,0.1,V,45,55,481,Status Value
+133,FA10 Voltage4,FALSE,999,0.1,V,45,55,496,Status Value
+134,FA10 Current1,FALSE,666,0.1,A,5,55,422,Status Value
+135,FA10 Current2,FALSE,666,0.1,A,5,55,207,Status Value
+136,FA10 Current3,FALSE,666,0.1,A,5,55,178,Status Value
+137,FA10 Current4,FALSE,666,0.1,A,5,55,423,Status Value
+138,FA10 Temperature,FALSE,700,0.1,deg.C,20,55,437,Status Value
+139,FA10 FPGA Version,FALSE,9999,0.01,none,0,none,110,Status Value
+140,FA11 Voltage1,FALSE,999,0.1,V,45,55,503,Status Value
+141,FA11 Voltage2,FALSE,999,0.1,V,45,55,501,Status Value
+142,FA11 Voltage3,FALSE,999,0.1,V,45,55,494,Status Value
+143,FA11 Voltage4,FALSE,999,0.1,V,45,55,477,Status Value
+144,FA11 Current1,FALSE,666,0.1,A,5,55,274,Status Value
+145,FA11 Current2,FALSE,666,0.1,A,5,55,194,Status Value
+146,FA11 Current3,FALSE,666,0.1,A,5,55,411,Status Value
+147,FA11 Current4,FALSE,666,0.1,A,5,55,400,Status Value
+148,FA11 Temperature,FALSE,700,0.1,deg.C,20,55,310,Status Value
+149,FA11 FPGA Version,FALSE,9999,0.01,none,0,none,110,Status Value
+150,FA12 Voltage1,FALSE,999,0.1,V,45,55,502,Status Value
+151,FA12 Voltage2,FALSE,999,0.1,V,45,55,478,Status Value
+152,FA12 Voltage3,FALSE,999,0.1,V,45,55,501,Status Value
+153,FA12 Voltage4,FALSE,999,0.1,V,45,55,503,Status Value
+154,FA12 Current1,FALSE,666,0.1,A,5,55,415,Status Value
+155,FA12 Current2,FALSE,666,0.1,A,5,55,206,Status Value
+156,FA12 Current3,FALSE,666,0.1,A,5,55,404,Status Value
+157,FA12 Current4,FALSE,666,0.1,A,5,55,195,Status Value
+158,FA12 Temperature,FALSE,700,0.1,deg.C,20,55,440,Status Value
+159,FA12 FPGA Version,FALSE,9999,0.01,none,0,none,110,Status Value
+160,FA13 Voltage1,FALSE,999,0.1,V,45,55,479,Status Value
+161,FA13 Voltage2,FALSE,999,0.1,V,45,55,522,Status Value
+162,FA13 Voltage3,FALSE,999,0.1,V,45,55,521,Status Value
+163,FA13 Voltage4,FALSE,999,0.1,V,45,55,506,Status Value
+164,FA13 Current1,FALSE,666,0.1,A,5,55,306,Status Value
+165,FA13 Current2,FALSE,666,0.1,A,5,55,290,Status Value
+166,FA13 Current3,FALSE,666,0.1,A,5,55,336,Status Value
+167,FA13 Current4,FALSE,666,0.1,A,5,55,367,Status Value
+168,FA13 Temperature,FALSE,700,0.1,deg.C,20,55,307,Status Value
+169,FA13 FPGA Version,FALSE,9999,0.01,none,0,none,110,Status Value
+170,FA14 Voltage1,FALSE,999,0.1,V,45,55,516,Status Value
+171,FA14 Voltage2,FALSE,999,0.1,V,45,55,517,Status Value
+172,FA14 Voltage3,FALSE,999,0.1,V,45,55,498,Status Value
+173,FA14 Voltage4,FALSE,999,0.1,V,45,55,524,Status Value
+174,FA14 Current1,FALSE,666,0.1,A,5,55,273,Status Value
+175,FA14 Current2,FALSE,666,0.1,A,5,55,225,Status Value
+176,FA14 Current3,FALSE,666,0.1,A,5,55,208,Status Value
+177,FA14 Current4,FALSE,666,0.1,A,5,55,382,Status Value
+178,FA14 Temperature,FALSE,700,0.1,deg.C,20,55,355,Status Value
+179,FA14 FPGA Version,FALSE,9999,0.01,none,0,none,110,Status Value
+180,FA15 Voltage1,FALSE,999,0.1,V,45,55,520,Status Value
+181,FA15 Voltage2,FALSE,999,0.1,V,45,55,515,Status Value
+182,FA15 Voltage3,FALSE,999,0.1,V,45,55,507,Status Value
+183,FA15 Voltage4,FALSE,999,0.1,V,45,55,524,Status Value
+184,FA15 Current1,FALSE,666,0.1,A,5,55,379,Status Value
+185,FA15 Current2,FALSE,666,0.1,A,5,55,339,Status Value
+186,FA15 Current3,FALSE,666,0.1,A,5,55,195,Status Value
+187,FA15 Current4,FALSE,666,0.1,A,5,55,255,Status Value
+188,FA15 Temperature,FALSE,700,0.1,deg.C,20,55,327,Status Value
+189,FA15 FPGA Version,FALSE,9999,0.01,none,0,none,110,Status Value
+190,FA16 Voltage1,FALSE,999,0.1,V,45,55,493,Status Value
+191,FA16 Voltage2,FALSE,999,0.1,V,45,55,513,Status Value
+192,FA16 Voltage3,FALSE,999,0.1,V,45,55,497,Status Value
+193,FA16 Voltage4,FALSE,999,0.1,V,45,55,511,Status Value
+194,FA16 Current1,FALSE,666,0.1,A,5,55,216,Status Value
+195,FA16 Current2,FALSE,666,0.1,A,5,55,419,Status Value
+196,FA16 Current3,FALSE,666,0.1,A,5,55,405,Status Value
+197,FA16 Current4,FALSE,666,0.1,A,5,55,395,Status Value
+198,FA16 Temperature,FALSE,700,0.1,deg.C,20,55,407,Status Value
+199,FA16 FPGA Version,FALSE,9999,0.01,none,0,none,110,Status Value
+200,FA17 Voltage1,FALSE,999,0.1,V,45,55,487,Status Value
+201,FA17 Voltage2,FALSE,999,0.1,V,45,55,505,Status Value
+202,FA17 Voltage3,FALSE,999,0.1,V,45,55,506,Status Value
+203,FA17 Voltage4,FALSE,999,0.1,V,45,55,487,Status Value
+204,FA17 Current1,FALSE,666,0.1,A,5,55,298,Status Value
+205,FA17 Current2,FALSE,666,0.1,A,5,55,210,Status Value
+206,FA17 Current3,FALSE,666,0.1,A,5,55,223,Status Value
+207,FA17 Current4,FALSE,666,0.1,A,5,55,196,Status Value
+208,FA17 Temperature,FALSE,700,0.1,deg.C,20,55,434,Status Value
+209,FA17 FPGA Version,FALSE,9999,0.01,none,0,none,110,Status Value
+210,FA18 Voltage1,FALSE,999,0.1,V,45,55,522,Status Value
+211,FA18 Voltage2,FALSE,999,0.1,V,45,55,488,Status Value
+212,FA18 Voltage3,FALSE,999,0.1,V,45,55,511,Status Value
+213,FA18 Voltage4,FALSE,999,0.1,V,45,55,509,Status Value
+214,FA18 Current1,FALSE,666,0.1,A,5,55,250,Status Value
+215,FA18 Current2,FALSE,666,0.1,A,5,55,349,Status Value
+216,FA18 Current3,FALSE,666,0.1,A,5,55,318,Status Value
+217,FA18 Current4,FALSE,666,0.1,A,5,55,207,Status Value
+218,FA18 Temperature,FALSE,700,0.1,deg.C,20,55,375,Status Value
+219,FA18 FPGA Version,FALSE,9999,0.01,none,0,none,110,Status Value
+220,FA19 Voltage1,FALSE,999,0.1,V,45,55,486,Status Value
+221,FA19 Voltage2,FALSE,999,0.1,V,45,55,500,Status Value
+222,FA19 Voltage3,FALSE,999,0.1,V,45,55,505,Status Value
+223,FA19 Voltage4,FALSE,999,0.1,V,45,55,498,Status Value
+224,FA19 Current1,FALSE,666,0.1,A,5,55,352,Status Value
+225,FA19 Current2,FALSE,666,0.1,A,5,55,287,Status Value
+226,FA19 Current3,FALSE,666,0.1,A,5,55,333,Status Value
+227,FA19 Current4,FALSE,666,0.1,A,5,55,194,Status Value
+228,FA19 Temperature,FALSE,700,0.1,deg.C,20,55,300,Status Value
+229,FA19 FPGA Version,FALSE,9999,0.01,none,0,none,110,Status Value
+230,FA20 Voltage1,FALSE,999,0.1,V,45,55,476,Status Value
+231,FA20 Voltage2,FALSE,999,0.1,V,45,55,506,Status Value
+232,FA20 Voltage3,FALSE,999,0.1,V,45,55,511,Status Value
+233,FA20 Voltage4,FALSE,999,0.1,V,45,55,521,Status Value
+234,FA20 Current1,FALSE,666,0.1,A,5,55,185,Status Value
+235,FA20 Current2,FALSE,666,0.1,A,5,55,323,Status Value
+236,FA20 Current3,FALSE,666,0.1,A,5,55,360,Status Value
+237,FA20 Current4,FALSE,666,0.1,A,5,55,315,Status Value
+238,FA20 Temperature,FALSE,700,0.1,deg.C,20,55,337,Status Value
+239,FA20 FPGA Version,FALSE,9999,0.01,none,0,none,110,Status Value
+240,FA21 Voltage1,FALSE,999,0.1,V,45,55,510,Status Value
+241,FA21 Voltage2,FALSE,999,0.1,V,45,55,476,Status Value
+242,FA21 Voltage3,FALSE,999,0.1,V,45,55,499,Status Value
+243,FA21 Voltage4,FALSE,999,0.1,V,45,55,495,Status Value
+244,FA21 Current1,FALSE,666,0.1,A,5,55,311,Status Value
+245,FA21 Current2,FALSE,666,0.1,A,5,55,393,Status Value
+246,FA21 Current3,FALSE,666,0.1,A,5,55,197,Status Value
+247,FA21 Current4,FALSE,666,0.1,A,5,55,411,Status Value
+248,FA21 Temperature,FALSE,700,0.1,deg.C,20,55,395,Status Value
+249,FA21 FPGA Version,FALSE,9999,0.01,none,0,none,110,Status Value
+250,FA22 Voltage1,FALSE,999,0.1,V,45,55,486,Status Value
+251,FA22 Voltage2,FALSE,999,0.1,V,45,55,499,Status Value
+252,FA22 Voltage3,FALSE,999,0.1,V,45,55,478,Status Value
+253,FA22 Voltage4,FALSE,999,0.1,V,45,55,494,Status Value
+254,FA22 Current1,FALSE,666,0.1,A,5,55,408,Status Value
+255,FA22 Current2,FALSE,666,0.1,A,5,55,384,Status Value
+256,FA22 Current3,FALSE,666,0.1,A,5,55,256,Status Value
+257,FA22 Current4,FALSE,666,0.1,A,5,55,321,Status Value
+258,FA22 Temperature,FALSE,700,0.1,deg.C,20,55,341,Status Value
+259,FA22 FPGA Version,FALSE,9999,0.01,none,0,none,110,Status Value
+260,FA23 Voltage1,FALSE,999,0.1,V,45,55,507,Status Value
+261,FA23 Voltage2,FALSE,999,0.1,V,45,55,486,Status Value
+262,FA23 Voltage3,FALSE,999,0.1,V,45,55,509,Status Value
+263,FA23 Voltage4,FALSE,999,0.1,V,45,55,516,Status Value
+264,FA23 Current1,FALSE,666,0.1,A,5,55,252,Status Value
+265,FA23 Current2,FALSE,666,0.1,A,5,55,211,Status Value
+266,FA23 Current3,FALSE,666,0.1,A,5,55,290,Status Value
+267,FA23 Current4,FALSE,666,0.1,A,5,55,228,Status Value
+268,FA23 Temperature,FALSE,700,0.1,deg.C,20,55,446,Status Value
+269,FA23 FPGA Version,FALSE,9999,0.01,none,0,none,110,Status Value
+270,FA24 Voltage1,FALSE,999,0.1,V,45,55,518,Status Value
+271,FA24 Voltage2,FALSE,999,0.1,V,45,55,509,Status Value
+272,FA24 Voltage3,FALSE,999,0.1,V,45,55,499,Status Value
+273,FA24 Voltage4,FALSE,999,0.1,V,45,55,483,Status Value
+274,FA24 Current1,FALSE,666,0.1,A,5,55,240,Status Value
+275,FA24 Current2,FALSE,666,0.1,A,5,55,305,Status Value
+276,FA24 Current3,FALSE,666,0.1,A,5,55,352,Status Value
+277,FA24 Current4,FALSE,666,0.1,A,5,55,208,Status Value
+278,FA24 Temperature,FALSE,700,0.1,deg.C,20,55,404,Status Value
+279,FA24 FPGA Version,FALSE,9999,0.01,none,0,none,110,Status Value
+280,FA25 Voltage1,FALSE,999,0.1,V,45,55,513,Status Value
+281,FA25 Voltage2,FALSE,999,0.1,V,45,55,488,Status Value
+282,FA25 Voltage3,FALSE,999,0.1,V,45,55,499,Status Value
+283,FA25 Voltage4,FALSE,999,0.1,V,45,55,517,Status Value
+284,FA25 Current1,FALSE,666,0.1,A,5,55,339,Status Value
+285,FA25 Current2,FALSE,666,0.1,A,5,55,184,Status Value
+286,FA25 Current3,FALSE,666,0.1,A,5,55,373,Status Value
+287,FA25 Current4,FALSE,666,0.1,A,5,55,402,Status Value
+288,FA25 Temperature,FALSE,700,0.1,deg.C,20,55,397,Status Value
+289,FA25 FPGA Version,FALSE,9999,0.01,none,0,none,110,Status Value
+290,FA26 Voltage1,FALSE,999,0.1,V,45,55,516,Status Value
+291,FA26 Voltage2,FALSE,999,0.1,V,45,55,477,Status Value
+292,FA26 Voltage3,FALSE,999,0.1,V,45,55,507,Status Value
+293,FA26 Voltage4,FALSE,999,0.1,V,45,55,490,Status Value
+294,FA26 Current1,FALSE,666,0.1,A,5,55,279,Status Value
+295,FA26 Current2,FALSE,666,0.1,A,5,55,377,Status Value
+296,FA26 Current3,FALSE,666,0.1,A,5,55,289,Status Value
+297,FA26 Current4,FALSE,666,0.1,A,5,55,341,Status Value
+298,FA26 Temperature,FALSE,700,0.1,deg.C,20,55,298,Status Value
+299,FA26 FPGA Version,FALSE,9999,0.01,none,none,none,110,Status Value
+300,FA27 Voltage1,FALSE,999,0.1,V,45,55,523,Status Value
+301,FA27 Voltage2,FALSE,999,0.1,V,45,55,502,Status Value
+302,FA27 Voltage3,FALSE,999,0.1,V,45,55,499,Status Value
+303,FA27 Voltage4,FALSE,999,0.1,V,45,55,508,Status Value
+304,FA27 Current1,FALSE,666,0.1,A,5,55,370,Status Value
+305,FA27 Current2,FALSE,666,0.1,A,5,55,337,Status Value
+306,FA27 Current3,FALSE,666,0.1,A,5,55,340,Status Value
+307,FA27 Current4,FALSE,666,0.1,A,5,55,195,Status Value
+308,FA27 Temperature,FALSE,700,0.1,deg.C,20,55,300,Status Value
+309,FA27 FPGA Version,FALSE,9999,0.01,none,none,none,110,Status Value
+310,FA28 Voltage1,FALSE,999,0.1,V,45,55,483,Status Value
+311,FA28 Voltage2,FALSE,999,0.1,V,45,55,521,Status Value
+312,FA28 Voltage3,FALSE,999,0.1,V,45,55,494,Status Value
+313,FA28 Voltage4,FALSE,999,0.1,V,45,55,480,Status Value
+314,FA28 Current1,FALSE,666,0.1,A,5,55,372,Status Value
+315,FA28 Current2,FALSE,666,0.1,A,5,55,264,Status Value
+316,FA28 Current3,FALSE,666,0.1,A,5,55,178,Status Value
+317,FA28 Current4,FALSE,666,0.1,A,5,55,392,Status Value
+318,FA28 Temperature,FALSE,700,0.1,deg.C,20,55,371,Status Value
+319,FA28 FPGA Version,FALSE,9999,0.01,none,none,none,110,Status Value
+320,FA29 Voltage1,FALSE,999,0.1,V,45,55,518,Status Value
+321,FA29 Voltage2,FALSE,999,0.1,V,45,55,506,Status Value
+322,FA29 Voltage3,FALSE,999,0.1,V,45,55,515,Status Value
+323,FA29 Voltage4,FALSE,999,0.1,V,45,55,492,Status Value
+324,FA29 Current1,FALSE,666,0.1,A,5,55,268,Status Value
+325,FA29 Current2,FALSE,666,0.1,A,5,55,368,Status Value
+326,FA29 Current3,FALSE,666,0.1,A,5,55,297,Status Value
+327,FA29 Current4,FALSE,666,0.1,A,5,55,357,Status Value
+328,FA29 Temperature,FALSE,700,0.1,deg.C,20,55,340,Status Value
+329,FA29 FPGA Version,FALSE,9999,0.01,none,none,none,110,Status Value
+330,FA30 Voltage1,FALSE,999,0.1,V,45,55,519,Status Value
+331,FA30 Voltage2,FALSE,999,0.1,V,45,55,488,Status Value
+332,FA30 Voltage3,FALSE,999,0.1,V,45,55,485,Status Value
+333,FA30 Voltage4,FALSE,999,0.1,V,45,55,491,Status Value
+334,FA30 Current1,FALSE,666,0.1,A,5,55,274,Status Value
+335,FA30 Current2,FALSE,666,0.1,A,5,55,323,Status Value
+336,FA30 Current3,FALSE,666,0.1,A,5,55,401,Status Value
+337,FA30 Current4,FALSE,666,0.1,A,5,55,324,Status Value
+338,FA30 Temperature,FALSE,700,0.1,deg.C,20,55,430,Status Value
+339,FA30 FPGA Version,FALSE,9999,0.01,none,none,none,110,Status Value
+340,FA31 Voltage1,FALSE,999,0.1,V,45,55,520,Status Value
+341,FA31 Voltage2,FALSE,999,0.1,V,45,55,505,Status Value
+342,FA31 Voltage3,FALSE,999,0.1,V,45,55,493,Status Value
+343,FA31 Voltage4,FALSE,999,0.1,V,45,55,475,Status Value
+344,FA31 Current1,FALSE,666,0.1,A,5,55,394,Status Value
+345,FA31 Current2,FALSE,666,0.1,A,5,55,370,Status Value
+346,FA31 Current3,FALSE,666,0.1,A,5,55,339,Status Value
+347,FA31 Current4,FALSE,666,0.1,A,5,55,224,Status Value
+348,FA31 Temperature,FALSE,700,0.1,deg.C,20,55,380,Status Value
+349,FA31 FPGA Version,FALSE,9999,0.01,none,none,none,110,Status Value
+350,FA32 Voltage1,FALSE,999,0.1,V,45,55,495,Status Value
+351,FA32 Voltage2,FALSE,999,0.1,V,45,55,493,Status Value
+352,FA32 Voltage3,FALSE,999,0.1,V,45,55,494,Status Value
+353,FA32 Voltage4,FALSE,999,0.1,V,45,55,500,Status Value
+354,FA32 Current1,FALSE,666,0.1,A,5,55,196,Status Value
+355,FA32 Current2,FALSE,666,0.1,A,5,55,272,Status Value
+356,FA32 Current3,FALSE,666,0.1,A,5,55,357,Status Value
+357,FA32 Current4,FALSE,666,0.1,A,5,55,229,Status Value
+358,FA32 Temperature,FALSE,700,0.1,deg.C,20,55,307,Status Value
+359,FA32 FPGA Version,FALSE,9999,0.01,none,none,none,110,Status Value
+360,FA33 Voltage1,FALSE,999,0.1,V,45,55,499,Status Value
+361,FA33 Voltage2,FALSE,999,0.1,V,45,55,507,Status Value
+362,FA33 Voltage3,FALSE,999,0.1,V,45,55,512,Status Value
+363,FA33 Voltage4,FALSE,999,0.1,V,45,55,499,Status Value
+364,FA33 Current1,FALSE,666,0.1,A,5,55,380,Status Value
+365,FA33 Current2,FALSE,666,0.1,A,5,55,417,Status Value
+366,FA33 Current3,FALSE,666,0.1,A,5,55,307,Status Value
+367,FA33 Current4,FALSE,666,0.1,A,5,55,305,Status Value
+368,FA33 Temperature,FALSE,700,0.1,deg.C,20,55,450,Status Value
+369,FA33 FPGA Version,FALSE,9999,0.01,none,none,none,110,Status Value
+370,FA34 Voltage1,FALSE,999,0.1,V,45,55,505,Status Value
+371,FA34 Voltage2,FALSE,999,0.1,V,45,55,515,Status Value
+372,FA34 Voltage3,FALSE,999,0.1,V,45,55,488,Status Value
+373,FA34 Voltage4,FALSE,999,0.1,V,45,55,488,Status Value
+374,FA34 Current1,FALSE,666,0.1,A,5,55,285,Status Value
+375,FA34 Current2,FALSE,666,0.1,A,5,55,333,Status Value
+376,FA34 Current3,FALSE,666,0.1,A,5,55,189,Status Value
+377,FA34 Current4,FALSE,666,0.1,A,5,55,185,Status Value
+378,FA34 Temperature,FALSE,700,0.1,deg.C,20,55,443,Status Value
+379,FA34 FPGA Version,FALSE,9999,0.01,none,none,none,110,Status Value
+380,FA35 Voltage1,FALSE,999,0.1,V,45,55,491,Status Value
+381,FA35 Voltage2,FALSE,999,0.1,V,45,55,481,Status Value
+382,FA35 Voltage3,FALSE,999,0.1,V,45,55,490,Status Value
+383,FA35 Voltage4,FALSE,999,0.1,V,45,55,503,Status Value
+384,FA35 Current1,FALSE,666,0.1,A,5,55,353,Status Value
+385,FA35 Current2,FALSE,666,0.1,A,5,55,236,Status Value
+386,FA35 Current3,FALSE,666,0.1,A,5,55,409,Status Value
+387,FA35 Current4,FALSE,666,0.1,A,5,55,311,Status Value
+388,FA35 Temperature,FALSE,700,0.1,deg.C,20,55,296,Status Value
+389,FA35 FPGA Version,FALSE,9999,0.01,none,none,none,110,Status Value
+390,FA36 Voltage1,FALSE,999,0.1,V,45,55,486,Status Value
+391,FA36 Voltage2,FALSE,999,0.1,V,45,55,511,Status Value
+392,FA36 Voltage3,FALSE,999,0.1,V,45,55,478,Status Value
+393,FA36 Voltage4,FALSE,999,0.1,V,45,55,501,Status Value
+394,FA36 Current1,FALSE,666,0.1,A,5,55,337,Status Value
+395,FA36 Current2,FALSE,666,0.1,A,5,55,322,Status Value
+396,FA36 Current3,FALSE,666,0.1,A,5,55,189,Status Value
+397,FA36 Current4,FALSE,666,0.1,A,5,55,204,Status Value
+398,FA36 Temperature,FALSE,700,0.1,deg.C,20,55,365,Status Value
+399,FA36 FPGA Version,FALSE,9999,0.01,none,none,none,110,Status Value
+400,FA37 Voltage1,FALSE,999,0.1,V,45,55,490,Status Value
+401,FA37 Voltage2,FALSE,999,0.1,V,45,55,479,Status Value
+402,FA37 Voltage3,FALSE,999,0.1,V,45,55,482,Status Value
+403,FA37 Voltage4,FALSE,999,0.1,V,45,55,498,Status Value
+404,FA37 Current1,FALSE,666,0.1,A,5,55,416,Status Value
+405,FA37 Current2,FALSE,666,0.1,A,5,55,181,Status Value
+406,FA37 Current3,FALSE,666,0.1,A,5,55,265,Status Value
+407,FA37 Current4,FALSE,666,0.1,A,5,55,382,Status Value
+408,FA37 Temperature,FALSE,700,0.1,deg.C,20,55,351,Status Value
+409,FA37 FPGA Version,FALSE,9999,0.01,none,none,none,110,Status Value
+410,FA38 Voltage1,FALSE,999,0.1,V,45,55,525,Status Value
+411,FA38 Voltage2,FALSE,999,0.1,V,45,55,485,Status Value
+412,FA38 Voltage3,FALSE,999,0.1,V,45,55,494,Status Value
+413,FA38 Voltage4,FALSE,999,0.1,V,45,55,497,Status Value
+414,FA38 Current1,FALSE,666,0.1,A,5,55,319,Status Value
+415,FA38 Current2,FALSE,666,0.1,A,5,55,377,Status Value
+416,FA38 Current3,FALSE,666,0.1,A,5,55,208,Status Value
+417,FA38 Current4,FALSE,666,0.1,A,5,55,276,Status Value
+418,FA38 Temperature,FALSE,700,0.1,deg.C,20,55,394,Status Value
+419,FA38 FPGA Version,FALSE,9999,0.01,none,none,none,110,Status Value
+420,FA39 Voltage1,FALSE,999,0.1,V,45,55,483,Status Value
+421,FA39 Voltage2,FALSE,999,0.1,V,45,55,510,Status Value
+422,FA39 Voltage3,FALSE,999,0.1,V,45,55,519,Status Value
+423,FA39 Voltage4,FALSE,999,0.1,V,45,55,505,Status Value
+424,FA39 Current1,FALSE,666,0.1,A,5,55,292,Status Value
+425,FA39 Current2,FALSE,666,0.1,A,5,55,244,Status Value
+426,FA39 Current3,FALSE,666,0.1,A,5,55,224,Status Value
+427,FA39 Current4,FALSE,666,0.1,A,5,55,318,Status Value
+428,FA39 Temperature,FALSE,700,0.1,deg.C,20,55,366,Status Value
+429,FA39 FPGA Version,FALSE,9999,0.01,none,none,none,110,Status Value
+430,FA40 Voltage1,FALSE,999,0.1,V,45,55,499,Status Value
+431,FA40 Voltage2,FALSE,999,0.1,V,45,55,519,Status Value
+432,FA40 Voltage3,FALSE,999,0.1,V,45,55,485,Status Value
+433,FA40 Voltage4,FALSE,999,0.1,V,45,55,515,Status Value
+434,FA40 Current1,FALSE,666,0.1,A,5,55,225,Status Value
+435,FA40 Current2,FALSE,666,0.1,A,5,55,240,Status Value
+436,FA40 Current3,FALSE,666,0.1,A,5,55,385,Status Value
+437,FA40 Current4,FALSE,666,0.1,A,5,55,291,Status Value
+438,FA40 Temperature,FALSE,700,0.1,deg.C,20,55,327,Status Value
+439,FA40 FPGA Version,FALSE,9999,0.01,none,none,none,110,Status Value
+440,FA41 Voltage1,FALSE,999,0.1,V,45,55,482,Status Value
+441,FA41 Voltage2,FALSE,999,0.1,V,45,55,477,Status Value
+442,FA41 Voltage3,FALSE,999,0.1,V,45,55,506,Status Value
+443,FA41 Voltage4,FALSE,999,0.1,V,45,55,483,Status Value
+444,FA41 Current1,FALSE,666,0.1,A,5,55,273,Status Value
+445,FA41 Current2,FALSE,666,0.1,A,5,55,320,Status Value
+446,FA41 Current3,FALSE,666,0.1,A,5,55,367,Status Value
+447,FA41 Current4,FALSE,666,0.1,A,5,55,407,Status Value
+448,FA41 Temperature,FALSE,700,0.1,deg.C,20,55,306,Status Value
+449,FA41 FPGA Version,FALSE,9999,0.01,none,none,none,110,Status Value
+450,FA42 Voltage1,FALSE,999,0.1,V,45,55,501,Status Value
+451,FA42 Voltage2,FALSE,999,0.1,V,45,55,484,Status Value
+452,FA42 Voltage3,FALSE,999,0.1,V,45,55,507,Status Value
+453,FA42 Voltage4,FALSE,999,0.1,V,45,55,522,Status Value
+454,FA42 Current1,FALSE,666,0.1,A,5,55,185,Status Value
+455,FA42 Current2,FALSE,666,0.1,A,5,55,191,Status Value
+456,FA42 Current3,FALSE,666,0.1,A,5,55,358,Status Value
+457,FA42 Current4,FALSE,666,0.1,A,5,55,211,Status Value
+458,FA42 Temperature,FALSE,700,0.1,deg.C,20,55,411,Status Value
+459,FA42 FPGA Version,FALSE,9999,0.01,none,none,none,110,Status Value
+460,FA43 Voltage1,FALSE,999,0.1,V,45,55,525,Status Value
+461,FA43 Voltage2,FALSE,999,0.1,V,45,55,491,Status Value
+462,FA43 Voltage3,FALSE,999,0.1,V,45,55,514,Status Value
+463,FA43 Voltage4,FALSE,999,0.1,V,45,55,479,Status Value
+464,FA43 Current1,FALSE,666,0.1,A,5,55,346,Status Value
+465,FA43 Current2,FALSE,666,0.1,A,5,55,387,Status Value
+466,FA43 Current3,FALSE,666,0.1,A,5,55,392,Status Value
+467,FA43 Current4,FALSE,666,0.1,A,5,55,350,Status Value
+468,FA43 Temperature,FALSE,700,0.1,deg.C,20,55,337,Status Value
+469,FA43 FPGA Version,FALSE,9999,0.01,none,none,none,110,Status Value
+470,FA44 Voltage1,FALSE,999,0.1,V,45,55,519,Status Value
+471,FA44 Voltage2,FALSE,999,0.1,V,45,55,491,Status Value
+472,FA44 Voltage3,FALSE,999,0.1,V,45,55,500,Status Value
+473,FA44 Voltage4,FALSE,999,0.1,V,45,55,508,Status Value
+474,FA44 Current1,FALSE,666,0.1,A,5,55,364,Status Value
+475,FA44 Current2,FALSE,666,0.1,A,5,55,320,Status Value
+476,FA44 Current3,FALSE,666,0.1,A,5,55,415,Status Value
+477,FA44 Current4,FALSE,666,0.1,A,5,55,235,Status Value
+478,FA44 Temperature,FALSE,700,0.1,deg.C,20,55,380,Status Value
+479,FA44 FPGA Version,FALSE,9999,0.01,none,none,none,110,Status Value
+480,FA45 Voltage1,FALSE,999,0.1,V,45,55,515,Status Value
+481,FA45 Voltage2,FALSE,999,0.1,V,45,55,485,Status Value
+482,FA45 Voltage3,FALSE,999,0.1,V,45,55,514,Status Value
+483,FA45 Voltage4,FALSE,999,0.1,V,45,55,492,Status Value
+484,FA45 Current1,FALSE,666,0.1,A,5,55,390,Status Value
+485,FA45 Current2,FALSE,666,0.1,A,5,55,276,Status Value
+486,FA45 Current3,FALSE,666,0.1,A,5,55,346,Status Value
+487,FA45 Current4,FALSE,666,0.1,A,5,55,304,Status Value
+488,FA45 Temperature,FALSE,700,0.1,deg.C,20,55,291,Status Value
+489,FA45 FPGA Version,FALSE,9999,0.01,none,none,none,110,Status Value
+490,FA46 Voltage1,FALSE,999,0.1,V,45,55,480,Status Value
+491,FA46 Voltage2,FALSE,999,0.1,V,45,55,521,Status Value
+492,FA46 Voltage3,FALSE,999,0.1,V,45,55,519,Status Value
+493,FA46 Voltage4,FALSE,999,0.1,V,45,55,509,Status Value
+494,FA46 Current1,FALSE,666,0.1,A,5,55,309,Status Value
+495,FA46 Current2,FALSE,666,0.1,A,5,55,287,Status Value
+496,FA46 Current3,FALSE,666,0.1,A,5,55,418,Status Value
+497,FA46 Current4,FALSE,666,0.1,A,5,55,194,Status Value
+498,FA46 Temperature,FALSE,700,0.1,deg.C,20,55,307,Status Value
+499,FA46 FPGA Version,FALSE,9999,0.01,none,none,none,110,Status Value
+500,FA47 Voltage1,FALSE,999,0.1,V,45,55,516,Status Value
+501,FA47 Voltage2,FALSE,999,0.1,V,45,55,510,Status Value
+502,FA47 Voltage3,FALSE,999,0.1,V,45,55,508,Status Value
+503,FA47 Voltage4,FALSE,999,0.1,V,45,55,524,Status Value
+504,FA47 Current1,FALSE,666,0.1,A,5,55,395,Status Value
+505,FA47 Current2,FALSE,666,0.1,A,5,55,413,Status Value
+506,FA47 Current3,FALSE,666,0.1,A,5,55,312,Status Value
+507,FA47 Current4,FALSE,666,0.1,A,5,55,318,Status Value
+508,FA47 Temperature,FALSE,700,0.1,deg.C,20,55,297,Status Value
+509,FA47 FPGA Version,FALSE,9999,0.01,none,none,none,110,Status Value
+510,FA48 Voltage1,FALSE,999,0.1,V,45,55,492,Status Value
+511,FA48 Voltage2,FALSE,999,0.1,V,45,55,494,Status Value
+512,FA48 Voltage3,FALSE,999,0.1,V,45,55,524,Status Value
+513,FA48 Voltage4,FALSE,999,0.1,V,45,55,482,Status Value
+514,FA48 Current1,FALSE,666,0.1,A,5,55,307,Status Value
+515,FA48 Current2,FALSE,666,0.1,A,5,55,329,Status Value
+516,FA48 Current3,FALSE,666,0.1,A,5,55,208,Status Value
+517,FA48 Current4,FALSE,666,0.1,A,5,55,315,Status Value
+518,FA48 Temperature,FALSE,700,0.1,deg.C,20,55,312,Status Value
+519,FA48 FPGA Version,FALSE,9999,0.01,none,none,none,110,Status Value
+520,FA49 Voltage1,FALSE,999,0.1,V,45,55,509,Status Value
+521,FA49 Voltage2,FALSE,999,0.1,V,45,55,522,Status Value
+522,FA49 Voltage3,FALSE,999,0.1,V,45,55,486,Status Value
+523,FA49 Voltage4,FALSE,999,0.1,V,45,55,483,Status Value
+524,FA49 Current1,FALSE,666,0.1,A,5,55,387,Status Value
+525,FA49 Current2,FALSE,666,0.1,A,5,55,379,Status Value
+526,FA49 Current3,FALSE,666,0.1,A,5,55,285,Status Value
+527,FA49 Current4,FALSE,666,0.1,A,5,55,344,Status Value
+528,FA49 Temperature,FALSE,700,0.1,deg.C,20,55,392,Status Value
+529,FA49 FPGA Version,FALSE,9999,0.01,none,none,none,110,Status Value
+530,FA50 Voltage1,FALSE,999,0.1,V,45,55,521,Status Value
+531,FA50 Voltage2,FALSE,999,0.1,V,45,55,517,Status Value
+532,FA50 Voltage3,FALSE,999,0.1,V,45,55,514,Status Value
+533,FA50 Voltage4,FALSE,999,0.1,V,45,55,503,Status Value
+534,FA50 Current1,FALSE,666,0.1,A,5,55,407,Status Value
+535,FA50 Current2,FALSE,666,0.1,A,5,55,331,Status Value
+536,FA50 Current3,FALSE,666,0.1,A,5,55,374,Status Value
+537,FA50 Current4,FALSE,666,0.1,A,5,55,266,Status Value
+538,FA50 Temperature,FALSE,700,0.1,deg.C,20,55,398,Status Value
+539,FA50 FPGA Version,FALSE,9999,0.01,none,none,none,110,Status Value
+540,FA51 Voltage1,FALSE,999,0.1,V,45,55,510,Status Value
+541,FA51 Voltage2,FALSE,999,0.1,V,45,55,494,Status Value
+542,FA51 Voltage3,FALSE,999,0.1,V,45,55,479,Status Value
+543,FA51 Voltage4,FALSE,999,0.1,V,45,55,515,Status Value
+544,FA51 Current1,FALSE,666,0.1,A,5,55,310,Status Value
+545,FA51 Current2,FALSE,666,0.1,A,5,55,339,Status Value
+546,FA51 Current3,FALSE,666,0.1,A,5,55,240,Status Value
+547,FA51 Current4,FALSE,666,0.1,A,5,55,314,Status Value
+548,FA51 Temperature,FALSE,700,0.1,deg.C,20,55,398,Status Value
+549,FA51 FPGA Version,FALSE,9999,0.01,none,none,none,110,Status Value
+550,FA52 Voltage1,FALSE,999,0.1,V,45,55,524,Status Value
+551,FA52 Voltage2,FALSE,999,0.1,V,45,55,495,Status Value
+552,FA52 Voltage3,FALSE,999,0.1,V,45,55,512,Status Value
+553,FA52 Voltage4,FALSE,999,0.1,V,45,55,482,Status Value
+554,FA52 Current1,FALSE,666,0.1,A,5,55,276,Status Value
+555,FA52 Current2,FALSE,666,0.1,A,5,55,342,Status Value
+556,FA52 Current3,FALSE,666,0.1,A,5,55,201,Status Value
+557,FA52 Current4,FALSE,666,0.1,A,5,55,390,Status Value
+558,FA52 Temperature,FALSE,700,0.1,deg.C,20,55,312,Status Value
+559,FA52 FPGA Version,FALSE,9999,0.01,none,none,none,110,Status Value
+560,FA53 Voltage1,FALSE,999,0.1,V,45,55,520,Status Value
+561,FA53 Voltage2,FALSE,999,0.1,V,45,55,506,Status Value
+562,FA53 Voltage3,FALSE,999,0.1,V,45,55,511,Status Value
+563,FA53 Voltage4,FALSE,999,0.1,V,45,55,488,Status Value
+564,FA53 Current1,FALSE,666,0.1,A,5,55,300,Status Value
+565,FA53 Current2,FALSE,666,0.1,A,5,55,382,Status Value
+566,FA53 Current3,FALSE,666,0.1,A,5,55,218,Status Value
+567,FA53 Current4,FALSE,666,0.1,A,5,55,335,Status Value
+568,FA53 Temperature,FALSE,700,0.1,deg.C,20,55,306,Status Value
+569,FA53 FPGA Version,FALSE,9999,0.01,none,none,none,110,Status Value
+570,FA54 Voltage1,FALSE,999,0.1,V,45,55,521,Status Value
+571,FA54 Voltage2,FALSE,999,0.1,V,45,55,496,Status Value
+572,FA54 Voltage3,FALSE,999,0.1,V,45,55,480,Status Value
+573,FA54 Voltage4,FALSE,999,0.1,V,45,55,509,Status Value
+574,FA54 Current1,FALSE,666,0.1,A,5,55,242,Status Value
+575,FA54 Current2,FALSE,666,0.1,A,5,55,348,Status Value
+576,FA54 Current3,FALSE,666,0.1,A,5,55,398,Status Value
+577,FA54 Current4,FALSE,666,0.1,A,5,55,394,Status Value
+578,FA54 Temperature,FALSE,700,0.1,deg.C,20,55,321,Status Value
+579,FA54 FPGA Version,FALSE,9999,0.01,none,none,none,110,Status Value
+580,FA55 Voltage1,FALSE,999,0.1,V,45,55,499,Status Value
+581,FA55 Voltage2,FALSE,999,0.1,V,45,55,524,Status Value
+582,FA55 Voltage3,FALSE,999,0.1,V,45,55,504,Status Value
+583,FA55 Voltage4,FALSE,999,0.1,V,45,55,521,Status Value
+584,FA55 Current1,FALSE,666,0.1,A,5,55,393,Status Value
+585,FA55 Current2,FALSE,666,0.1,A,5,55,193,Status Value
+586,FA55 Current3,FALSE,666,0.1,A,5,55,261,Status Value
+587,FA55 Current4,FALSE,666,0.1,A,5,55,257,Status Value
+588,FA55 Temperature,FALSE,700,0.1,deg.C,20,55,350,Status Value
+589,FA55 FPGA Version,FALSE,9999,0.01,none,none,none,110,Status Value
+590,FA56 Voltage1,FALSE,999,0.1,V,45,55,521,Status Value
+591,FA56 Voltage2,FALSE,999,0.1,V,45,55,496,Status Value
+592,FA56 Voltage3,FALSE,999,0.1,V,45,55,493,Status Value
+593,FA56 Voltage4,FALSE,999,0.1,V,45,55,503,Status Value
+594,FA56 Current1,FALSE,666,0.1,A,5,55,223,Status Value
+595,FA56 Current2,FALSE,666,0.1,A,5,55,278,Status Value
+596,FA56 Current3,FALSE,666,0.1,A,5,55,175,Status Value
+597,FA56 Current4,FALSE,666,0.1,A,5,55,324,Status Value
+598,FA56 Temperature,FALSE,700,0.1,deg.C,20,55,313,Status Value
+599,FA56 FPGA Version,FALSE,9999,0.01,none,none,none,110,Status Value
+600,FA57 Voltage1,FALSE,999,0.1,V,45,55,479,Status Value
+601,FA57 Voltage2,FALSE,999,0.1,V,45,55,498,Status Value
+602,FA57 Voltage3,FALSE,999,0.1,V,45,55,497,Status Value
+603,FA57 Voltage4,FALSE,999,0.1,V,45,55,505,Status Value
+604,FA57 Current1,FALSE,666,0.1,A,5,55,373,Status Value
+605,FA57 Current2,FALSE,666,0.1,A,5,55,211,Status Value
+606,FA57 Current3,FALSE,666,0.1,A,5,55,398,Status Value
+607,FA57 Current4,FALSE,666,0.1,A,5,55,300,Status Value
+608,FA57 Temperature,FALSE,700,0.1,deg.C,20,55,452,Status Value
+609,FA57 FPGA Version,FALSE,9999,0.01,none,none,none,110,Status Value
+610,FA58 Voltage1,FALSE,999,0.1,V,45,55,497,Status Value
+611,FA58 Voltage2,FALSE,999,0.1,V,45,55,480,Status Value
+612,FA58 Voltage3,FALSE,999,0.1,V,45,55,500,Status Value
+613,FA58 Voltage4,FALSE,999,0.1,V,45,55,517,Status Value
+614,FA58 Current1,FALSE,666,0.1,A,5,55,300,Status Value
+615,FA58 Current2,FALSE,666,0.1,A,5,55,336,Status Value
+616,FA58 Current3,FALSE,666,0.1,A,5,55,332,Status Value
+617,FA58 Current4,FALSE,666,0.1,A,5,55,326,Status Value
+618,FA58 Temperature,FALSE,700,0.1,deg.C,20,55,448,Status Value
+619,FA58 FPGA Version,FALSE,9999,0.01,none,none,none,110,Status Value
+620,FA59 Voltage1,FALSE,999,0.1,V,45,55,504,Status Value
+621,FA59 Voltage2,FALSE,999,0.1,V,45,55,510,Status Value
+622,FA59 Voltage3,FALSE,999,0.1,V,45,55,506,Status Value
+623,FA59 Voltage4,FALSE,999,0.1,V,45,55,497,Status Value
+624,FA59 Current1,FALSE,666,0.1,A,5,55,226,Status Value
+625,FA59 Current2,FALSE,666,0.1,A,5,55,275,Status Value
+626,FA59 Current3,FALSE,666,0.1,A,5,55,303,Status Value
+627,FA59 Current4,FALSE,666,0.1,A,5,55,270,Status Value
+628,FA59 Temperature,FALSE,700,0.1,deg.C,20,55,325,Status Value
+629,FA59 FPGA Version,FALSE,9999,0.01,none,none,none,110,Status Value
+630,FA60 Voltage1,FALSE,999,0.1,V,45,55,494,Status Value
+631,FA60 Voltage2,FALSE,999,0.1,V,45,55,476,Status Value
+632,FA60 Voltage3,FALSE,999,0.1,V,45,55,506,Status Value
+633,FA60 Voltage4,FALSE,999,0.1,V,45,55,494,Status Value
+634,FA60 Current1,FALSE,666,0.1,A,5,55,280,Status Value
+635,FA60 Current2,FALSE,666,0.1,A,5,55,420,Status Value
+636,FA60 Current3,FALSE,666,0.1,A,5,55,369,Status Value
+637,FA60 Current4,FALSE,666,0.1,A,5,55,183,Status Value
+638,FA60 Temperature,FALSE,700,0.1,deg.C,20,55,430,Status Value
+639,FA60 FPGA Version,FALSE,9999,0.01,none,none,none,110,Status Value
+640,FA61 Voltage1,FALSE,999,0.1,V,45,55,517,Status Value
+641,FA61 Voltage2,FALSE,999,0.1,V,45,55,486,Status Value
+642,FA61 Voltage3,FALSE,999,0.1,V,45,55,524,Status Value
+643,FA61 Voltage4,FALSE,999,0.1,V,45,55,509,Status Value
+644,FA61 Current1,FALSE,666,0.1,A,5,55,219,Status Value
+645,FA61 Current2,FALSE,666,0.1,A,5,55,394,Status Value
+646,FA61 Current3,FALSE,666,0.1,A,5,55,424,Status Value
+647,FA61 Current4,FALSE,666,0.1,A,5,55,277,Status Value
+648,FA61 Temperature,FALSE,700,0.1,deg.C,20,55,305,Status Value
+649,FA61 FPGA Version,FALSE,9999,0.01,none,none,none,110,Status Value
+650,FA62 Voltage1,FALSE,999,0.1,V,45,55,517,Status Value
+651,FA62 Voltage2,FALSE,999,0.1,V,45,55,503,Status Value
+652,FA62 Voltage3,FALSE,999,0.1,V,45,55,512,Status Value
+653,FA62 Voltage4,FALSE,999,0.1,V,45,55,520,Status Value
+654,FA62 Current1,FALSE,666,0.1,A,5,55,422,Status Value
+655,FA62 Current2,FALSE,666,0.1,A,5,55,400,Status Value
+656,FA62 Current3,FALSE,666,0.1,A,5,55,205,Status Value
+657,FA62 Current4,FALSE,666,0.1,A,5,55,192,Status Value
+658,FA62 Temperature,FALSE,700,0.1,deg.C,20,55,330,Status Value
+659,FA62 FPGA Version,FALSE,9999,0.01,none,none,none,110,Status Value
+660,FA63 Voltage1,FALSE,999,0.1,V,45,55,495,Status Value
+661,FA63 Voltage2,FALSE,999,0.1,V,45,55,477,Status Value
+662,FA63 Voltage3,FALSE,999,0.1,V,45,55,490,Status Value
+663,FA63 Voltage4,FALSE,999,0.1,V,45,55,519,Status Value
+664,FA63 Current1,FALSE,666,0.1,A,5,55,379,Status Value
+665,FA63 Current2,FALSE,666,0.1,A,5,55,305,Status Value
+666,FA63 Current3,FALSE,666,0.1,A,5,55,368,Status Value
+667,FA63 Current4,FALSE,666,0.1,A,5,55,299,Status Value
+668,FA63 Temperature,FALSE,700,0.1,deg.C,20,55,404,Status Value
+669,FA63 FPGA Version,FALSE,9999,0.01,none,none,none,110,Status Value
+670,FA64 Voltage1,FALSE,999,0.1,V,45,55,475,Status Value
+671,FA64 Voltage2,FALSE,999,0.1,V,45,55,521,Status Value
+672,FA64 Voltage3,FALSE,999,0.1,V,45,55,479,Status Value
+673,FA64 Voltage4,FALSE,999,0.1,V,45,55,485,Status Value
+674,FA64 Current1,FALSE,666,0.1,A,5,55,394,Status Value
+675,FA64 Current2,FALSE,666,0.1,A,5,55,412,Status Value
+676,FA64 Current3,FALSE,666,0.1,A,5,55,253,Status Value
+677,FA64 Current4,FALSE,666,0.1,A,5,55,215,Status Value
+678,FA64 Temperature,FALSE,700,0.1,deg.C,20,55,336,Status Value
+679,FA64 FPGA Version,FALSE,9999,0.01,none,none,none,110,Status Value
+680,FA65 Voltage1,FALSE,999,0.1,V,45,55,505,Status Value
+681,FA65 Voltage2,FALSE,999,0.1,V,45,55,476,Status Value
+682,FA65 Voltage3,FALSE,999,0.1,V,45,55,485,Status Value
+683,FA65 Voltage4,FALSE,999,0.1,V,45,55,476,Status Value
+684,FA65 Current1,FALSE,666,0.1,A,5,55,340,Status Value
+685,FA65 Current2,FALSE,666,0.1,A,5,55,316,Status Value
+686,FA65 Current3,FALSE,666,0.1,A,5,55,420,Status Value
+687,FA65 Current4,FALSE,666,0.1,A,5,55,228,Status Value
+688,FA65 Temperature,FALSE,700,0.1,deg.C,20,55,312,Status Value
+689,FA65 FPGA Version,FALSE,9999,0.01,none,none,none,110,Status Value
+690,FA66 Voltage1,FALSE,999,0.1,V,45,55,502,Status Value
+691,FA66 Voltage2,FALSE,999,0.1,V,45,55,509,Status Value
+692,FA66 Voltage3,FALSE,999,0.1,V,45,55,518,Status Value
+693,FA66 Voltage4,FALSE,999,0.1,V,45,55,480,Status Value
+694,FA66 Current1,FALSE,666,0.1,A,5,55,246,Status Value
+695,FA66 Current2,FALSE,666,0.1,A,5,55,239,Status Value
+696,FA66 Current3,FALSE,666,0.1,A,5,55,248,Status Value
+697,FA66 Current4,FALSE,666,0.1,A,5,55,176,Status Value
+698,FA66 Temperature,FALSE,700,0.1,deg.C,20,55,406,Status Value
+699,FA66 FPGA Version,FALSE,9999,0.01,none,none,none,110,Status Value
+700,FA67 Voltage1,FALSE,999,0.1,V,45,55,477,Status Value
+701,FA67 Voltage2,FALSE,999,0.1,V,45,55,522,Status Value
+702,FA67 Voltage3,FALSE,999,0.1,V,45,55,490,Status Value
+703,FA67 Voltage4,FALSE,999,0.1,V,45,55,506,Status Value
+704,FA67 Current1,FALSE,666,0.1,A,5,55,317,Status Value
+705,FA67 Current2,FALSE,666,0.1,A,5,55,252,Status Value
+706,FA67 Current3,FALSE,666,0.1,A,5,55,184,Status Value
+707,FA67 Current4,FALSE,666,0.1,A,5,55,424,Status Value
+708,FA67 Temperature,FALSE,700,0.1,deg.C,20,55,455,Status Value
+709,FA67 FPGA Version,FALSE,9999,0.01,none,none,none,110,Status Value
+710,FA68 Voltage1,FALSE,999,0.1,V,45,55,488,Status Value
+711,FA68 Voltage2,FALSE,999,0.1,V,45,55,512,Status Value
+712,FA68 Voltage3,FALSE,999,0.1,V,45,55,504,Status Value
+713,FA68 Voltage4,FALSE,999,0.1,V,45,55,517,Status Value
+714,FA68 Current1,FALSE,666,0.1,A,5,55,259,Status Value
+715,FA68 Current2,FALSE,666,0.1,A,5,55,228,Status Value
+716,FA68 Current3,FALSE,666,0.1,A,5,55,361,Status Value
+717,FA68 Current4,FALSE,666,0.1,A,5,55,283,Status Value
+718,FA68 Temperature,FALSE,700,0.1,deg.C,20,55,331,Status Value
+719,FA68 FPGA Version,FALSE,9999,0.01,none,none,none,110,Status Value
+720,FA69 Voltage1,FALSE,999,0.1,V,45,55,482,Status Value
+721,FA69 Voltage2,FALSE,999,0.1,V,45,55,497,Status Value
+722,FA69 Voltage3,FALSE,999,0.1,V,45,55,510,Status Value
+723,FA69 Voltage4,FALSE,999,0.1,V,45,55,521,Status Value
+724,FA69 Current1,FALSE,666,0.1,A,5,55,192,Status Value
+725,FA69 Current2,FALSE,666,0.1,A,5,55,298,Status Value
+726,FA69 Current3,FALSE,666,0.1,A,5,55,384,Status Value
+727,FA69 Current4,FALSE,666,0.1,A,5,55,366,Status Value
+728,FA69 Temperature,FALSE,700,0.1,deg.C,20,55,423,Status Value
+729,FA69 FPGA Version,FALSE,9999,0.01,none,none,none,110,Status Value
+730,FA70 Voltage1,FALSE,999,0.1,V,45,55,497,Status Value
+731,FA70 Voltage2,FALSE,999,0.1,V,45,55,512,Status Value
+732,FA70 Voltage3,FALSE,999,0.1,V,45,55,521,Status Value
+733,FA70 Voltage4,FALSE,999,0.1,V,45,55,522,Status Value
+734,FA70 Current1,FALSE,666,0.1,A,5,55,217,Status Value
+735,FA70 Current2,FALSE,666,0.1,A,5,55,412,Status Value
+736,FA70 Current3,FALSE,666,0.1,A,5,55,255,Status Value
+737,FA70 Current4,FALSE,666,0.1,A,5,55,236,Status Value
+738,FA70 Temperature,FALSE,700,0.1,deg.C,20,55,403,Status Value
+739,FA70 FPGA Version,FALSE,9999,0.01,none,none,none,110,Status Value
+740,FA71 Voltage1,FALSE,999,0.1,V,45,55,478,Status Value
+741,FA71 Voltage2,FALSE,999,0.1,V,45,55,478,Status Value
+742,FA71 Voltage3,FALSE,999,0.1,V,45,55,498,Status Value
+743,FA71 Voltage4,FALSE,999,0.1,V,45,55,508,Status Value
+744,FA71 Current1,FALSE,666,0.1,A,5,55,187,Status Value
+745,FA71 Current2,FALSE,666,0.1,A,5,55,192,Status Value
+746,FA71 Current3,FALSE,666,0.1,A,5,55,320,Status Value
+747,FA71 Current4,FALSE,666,0.1,A,5,55,338,Status Value
+748,FA71 Temperature,FALSE,700,0.1,deg.C,20,55,307,Status Value
+749,FA71 FPGA Version,FALSE,9999,0.01,none,none,none,110,Status Value
+750,FA72 Voltage1,FALSE,999,0.1,V,45,55,521,Status Value
+751,FA72 Voltage2,FALSE,999,0.1,V,45,55,516,Status Value
+752,FA72 Voltage3,FALSE,999,0.1,V,45,55,490,Status Value
+753,FA72 Voltage4,FALSE,999,0.1,V,45,55,504,Status Value
+754,FA72 Current1,FALSE,666,0.1,A,5,55,214,Status Value
+755,FA72 Current2,FALSE,666,0.1,A,5,55,404,Status Value
+756,FA72 Current3,FALSE,666,0.1,A,5,55,189,Status Value
+757,FA72 Current4,FALSE,666,0.1,A,5,55,312,Status Value
+758,FA72 Temperature,FALSE,700,0.1,deg.C,20,55,322,Status Value
+759,FA72 FPGA Version,FALSE,9999,0.01,none,none,none,110,Status Value
+760,FA73 Voltage1,FALSE,999,0.1,V,45,55,511,Status Value
+761,FA73 Voltage2,FALSE,999,0.1,V,45,55,476,Status Value
+762,FA73 Voltage3,FALSE,999,0.1,V,45,55,477,Status Value
+763,FA73 Voltage4,FALSE,999,0.1,V,45,55,499,Status Value
+764,FA73 Current1,FALSE,666,0.1,A,5,55,236,Status Value
+765,FA73 Current2,FALSE,666,0.1,A,5,55,195,Status Value
+766,FA73 Current3,FALSE,666,0.1,A,5,55,377,Status Value
+767,FA73 Current4,FALSE,666,0.1,A,5,55,247,Status Value
+768,FA73 Temperature,FALSE,700,0.1,deg.C,20,55,311,Status Value
+769,FA73 FPGA Version,FALSE,9999,0.01,none,none,none,110,Status Value
+770,FA74 Voltage1,FALSE,999,0.1,V,45,55,516,Status Value
+771,FA74 Voltage2,FALSE,999,0.1,V,45,55,524,Status Value
+772,FA74 Voltage3,FALSE,999,0.1,V,45,55,475,Status Value
+773,FA74 Voltage4,FALSE,999,0.1,V,45,55,476,Status Value
+774,FA74 Current1,FALSE,666,0.1,A,5,55,422,Status Value
+775,FA74 Current2,FALSE,666,0.1,A,5,55,347,Status Value
+776,FA74 Current3,FALSE,666,0.1,A,5,55,270,Status Value
+777,FA74 Current4,FALSE,666,0.1,A,5,55,238,Status Value
+778,FA74 Temperature,FALSE,700,0.1,deg.C,20,55,302,Status Value
+779,FA74 FPGA Version,FALSE,9999,0.01,none,none,none,110,Status Value
+780,FA75 Voltage1,FALSE,999,0.1,V,45,55,491,Status Value
+781,FA75 Voltage2,FALSE,999,0.1,V,45,55,480,Status Value
+782,FA75 Voltage3,FALSE,999,0.1,V,45,55,503,Status Value
+783,FA75 Voltage4,FALSE,999,0.1,V,45,55,502,Status Value
+784,FA75 Current1,FALSE,666,0.1,A,5,55,363,Status Value
+785,FA75 Current2,FALSE,666,0.1,A,5,55,185,Status Value
+786,FA75 Current3,FALSE,666,0.1,A,5,55,200,Status Value
+787,FA75 Current4,FALSE,666,0.1,A,5,55,331,Status Value
+788,FA75 Temperature,FALSE,700,0.1,deg.C,20,55,367,Status Value
+789,FA75 FPGA Version,FALSE,9999,0.01,none,none,none,110,Status Value
+790,FA76 Voltage1,FALSE,999,0.1,V,45,55,509,Status Value
+791,FA76 Voltage2,FALSE,999,0.1,V,45,55,495,Status Value
+792,FA76 Voltage3,FALSE,999,0.1,V,45,55,495,Status Value
+793,FA76 Voltage4,FALSE,999,0.1,V,45,55,511,Status Value
+794,FA76 Current1,FALSE,666,0.1,A,5,55,322,Status Value
+795,FA76 Current2,FALSE,666,0.1,A,5,55,397,Status Value
+796,FA76 Current3,FALSE,666,0.1,A,5,55,340,Status Value
+797,FA76 Current4,FALSE,666,0.1,A,5,55,355,Status Value
+798,FA76 Temperature,FALSE,700,0.1,deg.C,20,55,289,Status Value
+799,FA76 FPGA Version,FALSE,9999,0.01,none,none,none,110,Status Value
+800,FA77 Voltage1,FALSE,999,0.1,V,45,55,493,Status Value
+801,FA77 Voltage2,FALSE,999,0.1,V,45,55,506,Status Value
+802,FA77 Voltage3,FALSE,999,0.1,V,45,55,479,Status Value
+803,FA77 Voltage4,FALSE,999,0.1,V,45,55,518,Status Value
+804,FA77 Current1,FALSE,666,0.1,A,5,55,187,Status Value
+805,FA77 Current2,FALSE,666,0.1,A,5,55,212,Status Value
+806,FA77 Current3,FALSE,666,0.1,A,5,55,235,Status Value
+807,FA77 Current4,FALSE,666,0.1,A,5,55,258,Status Value
+808,FA77 Temperature,FALSE,700,0.1,deg.C,20,55,413,Status Value
+809,FA77 FPGA Version,FALSE,9999,0.01,none,none,none,110,Status Value
+810,FA78 Voltage1,FALSE,999,0.1,V,45,55,523,Status Value
+811,FA78 Voltage2,FALSE,999,0.1,V,45,55,495,Status Value
+812,FA78 Voltage3,FALSE,999,0.1,V,45,55,485,Status Value
+813,FA78 Voltage4,FALSE,999,0.1,V,45,55,495,Status Value
+814,FA78 Current1,FALSE,666,0.1,A,5,55,401,Status Value
+815,FA78 Current2,FALSE,666,0.1,A,5,55,245,Status Value
+816,FA78 Current3,FALSE,666,0.1,A,5,55,186,Status Value
+817,FA78 Current4,FALSE,666,0.1,A,5,55,359,Status Value
+818,FA78 Temperature,FALSE,700,0.1,deg.C,20,55,411,Status Value
+819,FA78 FPGA Version,FALSE,9999,0.01,none,none,none,110,Status Value
+820,FA79 Voltage1,FALSE,999,0.1,V,45,55,493,Status Value
+821,FA79 Voltage2,FALSE,999,0.1,V,45,55,517,Status Value
+822,FA79 Voltage3,FALSE,999,0.1,V,45,55,479,Status Value
+823,FA79 Voltage4,FALSE,999,0.1,V,45,55,514,Status Value
+824,FA79 Current1,FALSE,666,0.1,A,5,55,314,Status Value
+825,FA79 Current2,FALSE,666,0.1,A,5,55,371,Status Value
+826,FA79 Current3,FALSE,666,0.1,A,5,55,332,Status Value
+827,FA79 Current4,FALSE,666,0.1,A,5,55,382,Status Value
+828,FA79 Temperature,FALSE,700,0.1,deg.C,20,55,333,Status Value
+829,FA79 FPGA Version,FALSE,9999,0.01,none,none,none,110,Status Value
+830,FA80 Voltage1,FALSE,999,0.1,V,45,55,513,Status Value
+831,FA80 Voltage2,FALSE,999,0.1,V,45,55,520,Status Value
+832,FA80 Voltage3,FALSE,999,0.1,V,45,55,506,Status Value
+833,FA80 Voltage4,FALSE,999,0.1,V,45,55,482,Status Value
+834,FA80 Current1,FALSE,666,0.1,A,5,55,327,Status Value
+835,FA80 Current2,FALSE,666,0.1,A,5,55,311,Status Value
+836,FA80 Current3,FALSE,666,0.1,A,5,55,202,Status Value
+837,FA80 Current4,FALSE,666,0.1,A,5,55,311,Status Value
+838,FA80 Temperature,FALSE,700,0.1,deg.C,20,55,288,Status Value
+839,FA80 FPGA Version,FALSE,9999,0.01,none,none,none,110,Status Value
+840,FA81 Voltage1,FALSE,999,0.1,V,45,55,509,Status Value
+841,FA81 Voltage2,FALSE,999,0.1,V,45,55,511,Status Value
+842,FA81 Voltage3,FALSE,999,0.1,V,45,55,521,Status Value
+843,FA81 Voltage4,FALSE,999,0.1,V,45,55,496,Status Value
+844,FA81 Current1,FALSE,666,0.1,A,5,55,248,Status Value
+845,FA81 Current2,FALSE,666,0.1,A,5,55,291,Status Value
+846,FA81 Current3,FALSE,666,0.1,A,5,55,368,Status Value
+847,FA81 Current4,FALSE,666,0.1,A,5,55,370,Status Value
+848,FA81 Temperature,FALSE,700,0.1,deg.C,20,55,340,Status Value
+849,FA81 FPGA Version,FALSE,9999,0.01,none,none,none,110,Status Value
+850,FA82 Voltage1,FALSE,999,0.1,V,45,55,488,Status Value
+851,FA82 Voltage2,FALSE,999,0.1,V,45,55,518,Status Value
+852,FA82 Voltage3,FALSE,999,0.1,V,45,55,476,Status Value
+853,FA82 Voltage4,FALSE,999,0.1,V,45,55,511,Status Value
+854,FA82 Current1,FALSE,666,0.1,A,5,55,257,Status Value
+855,FA82 Current2,FALSE,666,0.1,A,5,55,400,Status Value
+856,FA82 Current3,FALSE,666,0.1,A,5,55,411,Status Value
+857,FA82 Current4,FALSE,666,0.1,A,5,55,368,Status Value
+858,FA82 Temperature,FALSE,700,0.1,deg.C,20,55,416,Status Value
+859,FA82 FPGA Version,FALSE,9999,0.01,none,none,none,110,Status Value
+860,FA83 Voltage1,FALSE,999,0.1,V,45,55,487,Status Value
+861,FA83 Voltage2,FALSE,999,0.1,V,45,55,509,Status Value
+862,FA83 Voltage3,FALSE,999,0.1,V,45,55,481,Status Value
+863,FA83 Voltage4,FALSE,999,0.1,V,45,55,483,Status Value
+864,FA83 Current1,FALSE,666,0.1,A,5,55,390,Status Value
+865,FA83 Current2,FALSE,666,0.1,A,5,55,377,Status Value
+866,FA83 Current3,FALSE,666,0.1,A,5,55,320,Status Value
+867,FA83 Current4,FALSE,666,0.1,A,5,55,240,Status Value
+868,FA83 Temperature,FALSE,700,0.1,deg.C,20,55,448,Status Value
+869,FA83 FPGA Version,FALSE,9999,0.01,none,none,none,110,Status Value
+870,FA84 Voltage1,FALSE,999,0.1,V,45,55,522,Status Value
+871,FA84 Voltage2,FALSE,999,0.1,V,45,55,525,Status Value
+872,FA84 Voltage3,FALSE,999,0.1,V,45,55,490,Status Value
+873,FA84 Voltage4,FALSE,999,0.1,V,45,55,514,Status Value
+874,FA84 Current1,FALSE,666,0.1,A,5,55,195,Status Value
+875,FA84 Current2,FALSE,666,0.1,A,5,55,375,Status Value
+876,FA84 Current3,FALSE,666,0.1,A,5,55,323,Status Value
+877,FA84 Current4,FALSE,666,0.1,A,5,55,213,Status Value
+878,FA84 Temperature,FALSE,700,0.1,deg.C,20,55,291,Status Value
+879,FA84 FPGA Version,FALSE,9999,0.01,none,none,none,110,Status Value
+880,DA1 Voltage1,FALSE,999,0.1,V,45,55,478,Status Value
+881,DA1 Voltage2,FALSE,999,0.1,V,45,55,507,Status Value
+882,DA1 Voltage3,FALSE,999,0.1,V,45,55,493,Status Value
+883,DA1 Voltage4,FALSE,999,0.1,V,45,55,506,Status Value
+884,DA1 Current1,FALSE,666,0.1,A,5,55,235,Status Value
+885,DA1 Current2,FALSE,666,0.1,A,5,55,421,Status Value
+886,DA1 Current3,FALSE,666,0.1,A,5,55,308,Status Value
+887,DA1 Current4,FALSE,666,0.1,A,5,55,253,Status Value
+888,DA1 Temperature,FALSE,700,0.1,deg.C,20,55,352,Status Value
+889,DA1 FPGA Version,FALSE,9999,0.01,none,none,none,110,Status Value
+890,DA2 Voltage1,FALSE,999,0.1,V,45,55,524,Status Value
+891,DA2 Voltage2,FALSE,999,0.1,V,45,55,493,Status Value
+892,DA2 Voltage3,FALSE,999,0.1,V,45,55,485,Status Value
+893,DA2 Voltage4,FALSE,999,0.1,V,45,55,482,Status Value
+894,DA2 Current1,FALSE,666,0.1,A,5,55,249,Status Value
+895,DA2 Current2,FALSE,666,0.1,A,5,55,205,Status Value
+896,DA2 Current3,FALSE,666,0.1,A,5,55,299,Status Value
+897,DA2 Current4,FALSE,666,0.1,A,5,55,403,Status Value
+898,DA2 Temperature,FALSE,700,0.1,deg.C,20,55,312,Status Value
+899,DA2 FPGA Version,FALSE,9999,0.01,none,none,none,110,Status Value
+900,Main Warning Status1,FALSE,0xFFFF,none,n/a,none,none,0,0: OK &  1: Error & bit15: DA FAN4 speed & bit14: DA FAN3 speed & bit13: DA FAN2 speed & bit12: DA FAN1 speed & bit11: CB2 FAN6 speed & bit10: CB2 FAN5 speed & bit9: CB2 FAN4 speed & bit8: CB2 FAN3 speed & bit7: CB2 FAN2 speed & bit6: CB2 FAN1 speed & bit5: CB1 FAN6 speed & bit4: CB1 FAN5 speed & bit3: CB1 FAN4 speed & bit2: CB1 FAN3 speed & bit1: CB1 FAN2 speed & bit0: CB1 FAN1 speed
+901,Main Warning Status2,FALSE,0xFFFF,none,n/a,none,none,0,0: OK &  1: Error & bit15: DA FAN8 speed & bit14: DA FAN7 speed & bit13: DA FAN6 speed & bit12: DA FAN5 speed & bit11: CB4 FAN6 speed & bit10: CB4 FAN5 speed & bit9: CB4 FAN4 speed & bit8: CB4 FAN3 speed & bit7: CB4 FAN2 speed & bit6: CB4 FAN1 speed & bit5: CB3 FAN6 speed & bit4: CB3 FAN5 speed & bit3: CB3 FAN4 speed & bit2: CB3 FAN3 speed & bit1: CB3 FAN2 speed & bit0: CB3 FAN1 speed
+902,Main Warning Status3,FALSE,0x0FFF,none,n/a,none,none,0,0: OK &  1: Error & bit12 - bit15: - & bit11: CB6 FAN6 speed & bit10: CB6 FAN5 speed & bit9: CB6 FAN4 speed & bit8: CB6 FAN3 speed & bit7: CB6 FAN2 speed & bit6: CB6 FAN1 speed & bit5: CB5 FAN6 speed & bit4: CB5 FAN5 speed & bit3: CB5 FAN4 speed & bit2: CB5 FAN3 speed & bit1: CB5 FAN2 speed & bit0: CB5 FAN1 speed
+903,Main Warning Status4,FALSE,0x3FFF,none,n/a,none,none,0,0: OK &  1: Error & bit14 - bit15: - & bit13: PS5 Alarm & bit12: PS4 Alarm & bit11: PS3 Alarm & bit10: PS2 Alarm & bit9: PS1 Alarm & bit8: CTRL FAN2 speed & bit7: CTRL FAN1 speed & bit6: RD FAN speed & bit5: DB2 FAN3 speed & bit4: DB2 FAN2 speed & bit3: DB2 FAN1 speed & bit2: DB1 FAN3 speed & bit1: DB1 FAN2 speed & bit0: DB1 FAN1 speed
+904,Main Warning Status5,FALSE,0x0FFF,none,n/a,none,none,0,0: OK &  1: Error & bit12 - bit15: - & bit11: HE2 FAN6 speed & bit10: HE2 FAN5 speed & bit9: HE2 FAN4 speed & bit8: HE2 FAN3 speed & bit7: HE2 FAN2 speed & bit6: HE2 FAN1 speed & bit5: HE1 FAN6 speed & bit4: HE1 FAN5 speed & bit3: HE1 FAN4 speed & bit2: HE1 FAN3 speed & bit1: HE1 FAN2 speed & bit0: HE1 FAN1 speed
+905,Main Warning Status6,FALSE,0xFFFF,none,n/a,none,none,0,0: OK &  1: Error & bit15: Shelf_8 Fault2 & bit14: Shelf_8 Fault1 & bit13: Shelf_7 Fault2 & bit12: Shelf_7 Fault1 & bit11: Shelf_6 Fault2 & bit10: Shelf_6 Fault1 & bit9: Shelf_5 Fault2 & bit8: Shelf_5 Fault1 & bit7: Shelf_4 Fault2 & bit6: Shelf_4 Fault1 & bit5: Shelf_3 Fault2 & bit4: Shelf_3 Fault1 & bit3: Shelf_2 Fault2 & bit2: Shelf_2 Fault1 & bit1: Shelf_1 Fault2 & bit0: Shelf_1 Fault1
+906,Main Warning Status7,FALSE,0x07FF,none,n/a,none,none,0,0: OK &  1: Error & bit11 - bit15: - & bit10: LCW outlet7 flow & bit9: LCW outlet6 flow & bit8: LCW outlet5 flow & bit7: LCW outlet4 flow & bit6: LCW Inlet2 flow & bit5: LCW outlut3 flow & bit4: LCW outlet2 flow & bit3: LCW outlet1 flow & bit2: LCW Inlet1 flow & bit1: Reflect power & bit0: Forward power
+907,FA1 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+908,FA2 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+909,FA3 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+910,FA4 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+911,FA5 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+912,FA6 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+913,FA7 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+914,FA8 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+915,FA9 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+916,FA10 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+917,FA11 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+918,FA12 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+919,FA13 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+920,FA14 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+921,FA15 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+922,FA16 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+923,FA17 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+924,FA18 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+925,FA19 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+926,FA20 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+927,FA21 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+928,FA22 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+929,FA23 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+930,FA24 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+931,FA25 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+932,FA26 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+933,FA27 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+934,FA28 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+935,FA29 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+936,FA30 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+937,FA31 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+938,FA32 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+939,FA33 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+940,FA34 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+941,FA35 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+942,FA36 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+943,FA37 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+944,FA38 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+945,FA39 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+946,FA40 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+947,FA41 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+948,FA42 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+949,FA43 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+950,FA44 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+951,FA45 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+952,FA46 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+953,FA47 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+954,FA48 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+955,FA49 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+956,FA50 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+957,FA51 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+958,FA52 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+959,FA53 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+960,FA54 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+961,FA55 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+962,FA56 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+963,FA57 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+964,FA58 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+965,FA59 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+966,FA60 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+967,FA61 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+968,FA62 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+969,FA63 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+970,FA64 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+971,FA65 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+972,FA66 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+973,FA67 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+974,FA68 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+975,FA69 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+976,FA70 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+977,FA71 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+978,FA72 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+979,FA73 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+980,FA74 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+981,FA75 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+982,FA76 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+983,FA77 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+984,FA78 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+985,FA79 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+986,FA80 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+987,FA81 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+988,FA82 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+989,FA83 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+990,FA84 Warning Status,FALSE,0x19FF,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit11: Thermal trip   & bit10: - & bit9: - & bit8: Blanking & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+991,DA1 Warning Status,FALSE,0x1100,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit9 - bit11: - & bit8: Blanking & bit0 – bit7: -
+992,DA2 Warning Status,FALSE,0x1100,none,n/a,none,none,0,0: OK &  1: Error & bit13 - bit15: - & bit12: Temperature & bit9 - bit11: - & bit8: Blanking & bit0 – bit7: -
+993,Main Alarm Status1,FALSE,0x0FFF,none,n/a,none,none,0,0: OK &  1: Error   & bit12 - bit15: - & bit11: PS Alarm & bit10: AC Detector & bit9: DA Thermo. & bit8: Combiner Thermo. & bit7: HE2 Thermo. & bit6: HE1 Thermo. & bit5: HE2 Water Leak & bit4: Rack2 Water Leak & bit3: HE1 Water Leak & bit2: Rack1 Water Leak & bit1: Emergency & bit0: Ext. Interlock
+994,Main Alarm Status2,FALSE,0x800F,none,n/a,none,none,0,0: OK &  1: Error   & bit15: Stop FA more than3 & bit8 - bit14: - & bit7: - & bit6: - & bit5: - & bit4: - & bit3: Reflect power & bit2: Forward power & bit1: Blanking (Width) & bit0: Blanking (Duty)
+995,Main Alarm Status3,FALSE,0x00FF,none,n/a,none,none,0,0: OK &  1: Error & bit8 - bit15: - & bit7: Outlet3 water temp. & bit6: Outlet3 water flow & bit5: Outlet2 water temp. & bit4: Outlet2 water flow & bit3: Outlet1 water temp. & bit2: Outlet1 water flow & bit1: Inlet water temp. & bit0: Inlet water flow
+996,Main Alarm Status4,FALSE,0x03FF,none,n/a,none,none,0,0: OK &  1: Error & bit10 - bit15: - & bit9: Outlet4 water temp. & bit8: Outlet4 water flow & bit7: Outlet3 water temp. & bit6: Outlet3 water flow & bit5: Outlet2 water temp. & bit4: Outlet2 water flow & bit3: Outlet1 water temp. & bit2: Outlet1 water flow & bit1: Inlet water temp. & bit0: Inlet water flow
+997,DA1 Alarm Status,FALSE,0x08FF,none,n/a,none,none,0,0: OK &  1: Error & bit12 - bit15: - & bit11: Thermal trip  & bit8 - bit10: - & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+998,DA2 Alarm Status,FALSE,0x08FF,none,n/a,none,none,0,0: OK &  1: Error & bit12 - bit15: - & bit11: Thermal trip  & bit8 - bit10: - & bit7: Drain Voltage4 & bit6: Drain Voltage3 & bit5: Drain Voltage2 & bit4: Drain Voltage1 & bit3: Drain Current4 & bit2: Drain Current3 & bit1: Drain Current2 & bit0: Drain Current1
+999,Sub CPU Error Status1,FALSE,0xFFFF,none,n/a,none,none,0,0: OK &  1: Error & bit15: FA16 Sub CPU & bit14: FA15 Sub CPU & bit13: FA14 Sub CPU & bit12: FA13 Sub CPU & bit11: FA12 Sub CPU & bit10: FA11 Sub CPU & bit9: FA10 Sub CPU & bit8: FA9 Sub CPU & bit7: FA8 Sub CPU & bit6: FA7 Sub CPU & bit5: FA6 Sub CPU & bit4: FA5 Sub CPU & bit3: FA4 Sub CPU & bit2: FA3 Sub CPU & bit1: FA2 Sub CPU & bit0: FA1 Sub CPU
+1000,Sub CPU Error Status2,FALSE,0xFFFF,none,n/a,none,none,0,0: OK &  1: Error & bit15: FA32 Sub CPU & bit14: FA31 Sub CPU & bit13: FA30 Sub CPU & bit12: FA29 Sub CPU & bit11: FA28 Sub CPU & bit10: FA27 Sub CPU & bit9: FA26 Sub CPU & bit8: FA25 Sub CPU & bit7: FA24 Sub CPU & bit6: FA23 Sub CPU & bit5: FA22 Sub CPU & bit4: FA21 Sub CPU & bit3: FA20 Sub CPU & bit2: FA19 Sub CPU & bit1: FA18 Sub CPU & bit0: FA17 Sub CPU
+1001,Sub CPU Error Status3,FALSE,0xFFFF,none,n/a,none,none,0,0: OK &  1: Error & bit15: FA48 Sub CPU & bit14: FA47 Sub CPU & bit13: FA46 Sub CPU & bit12: FA45 Sub CPU & bit11: FA44 Sub CPU & bit10: FA43 Sub CPU & bit9: FA42 Sub CPU & bit8: FA41 Sub CPU & bit7: FA40 Sub CPU & bit6: FA39 Sub CPU & bit5: FA38 Sub CPU & bit4: FA37 Sub CPU & bit3: FA36 Sub CPU & bit2: FA35 Sub CPU & bit1: FA34 Sub CPU & bit0: FA33 Sub CPU
+1002,Sub CPU Error Status4,FALSE,0xFFFF,none,n/a,none,none,0,0: OK &  1: Error & bit15: FA64 Sub CPU & bit14: FA63 Sub CPU & bit13: FA62 Sub CPU & bit12: FA61 Sub CPU & bit11: FA60 Sub CPU & bit10: FA59 Sub CPU & bit9: FA58 Sub CPU & bit8: FA57 Sub CPU & bit7: FA56 Sub CPU & bit6: FA55 Sub CPU & bit5: FA54 Sub CPU & bit4: FA53 Sub CPU & bit3: FA52 Sub CPU & bit2: FA51 Sub CPU & bit1: FA50 Sub CPU & bit0: FA49 Sub CPU
+1003,Sub CPU Error Status5,FALSE,0xFFFF,none,n/a,none,none,0,0: OK &  1: Error & bit15: FA80 Sub CPU & bit14: FA79 Sub CPU & bit13: FA78 Sub CPU & bit12: FA77 Sub CPU & bit11: FA76 Sub CPU & bit10: FA75 Sub CPU & bit9: FA74 Sub CPU & bit8: FA73 Sub CPU & bit7: FA72 Sub CPU & bit6: FA71 Sub CPU & bit5: FA70 Sub CPU & bit4: FA69 Sub CPU & bit3: FA68 Sub CPU & bit2: FA67 Sub CPU & bit1: FA66 Sub CPU & bit0: FA65 Sub CPU
+1004,Sub CPU Error Status6,FALSE,0x003F,none,n/a,none,none,0,0: OK &  1: Error & bit6 - bit15: - & bit5: DA2 Sub CPU & bit4: DA1 Sub CPU & bit3: FA84 Sub CPU & bit2: FA83 Sub CPU & bit1: FA82 Sub CPU & bit0: FA81 Sub CPU
