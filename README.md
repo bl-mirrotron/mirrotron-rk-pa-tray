@@ -13,6 +13,8 @@ The RF power amplifier takes the low level signal generated from the [RF source]
 
 The <a href="https://rk-microwave.com/" target="_blank">manufacturer</a> of the RF power amplifier provides a <a href="https://en.wikipedia.org/wiki/Modbus" target="_blank">Modbus</a> TCP interface so the RF Power amplifier can be controlled and monitored.  The manufacturer provides a detailed <a href="doc/RKAmplifier.csv" target="_blank">spreadsheet of the Modbus table</a> as well. The tray code is written in the <a href="https://nodered.org/" target="_blank">Node-RED</a> programming environment as shown in Figure 1. The tray flow is a modified version of the standard  Blinky-Lite<sup>TM</sup> tray for serial communications. A Node-RED  <a href="https://flows.nodered.org/node/node-red-contrib-modbus" target="_blank">Modbus TCP node</a> was used handled communications to the amplifier.
 
+To develop and test the interface to RF power amplifier without having to power on the amplifier, a simulation flow as shown in Figure 2 was also developed.
+
 <p></p><p style="text-align:center;font-size: large;"><span style="font-weight: bold;color: green;">Figure 1. </span> <span style="font-style: italic;">RF Power Amplifier tray flow with Modbus interface.</span></p>
 <div style="width:100%;text-align:center;"><img width="100%" style="border-style:solid;border-color:#1c6e97;" src="doc/paFlow.png"/></div><br>
 
