@@ -2,7 +2,7 @@
   "type": "rk-pa",
   "name": "01",
   "arcPeriod": 60000,
-  "timeStamp": 1647441819420,
+  "timeStamp": 1658997123028,
   "IOState": {
     "action": "setting",
     "type": "scalar",
@@ -106,7 +106,7 @@
   "watchDog": {
     "action": "reading",
     "type": "scalar",
-    "value": 190,
+    "value": 32,
     "unit": "Hz",
     "alarm": {
       "value": 0,
@@ -233,8 +233,8 @@
       "limits": {
         "lolo": -1,
         "low": -1,
-        "high": 315,
-        "hihi": 330
+        "high": 230,
+        "hihi": 250
       },
       "notify": {
         "name": "",
