@@ -2,7 +2,7 @@
   "type": "rk-pa",
   "name": "01",
   "arcPeriod": 60000,
-  "timeStamp": 1658997123028,
+  "timeStamp": 1716485074936,
   "IOState": {
     "action": "setting",
     "type": "scalar",
@@ -86,7 +86,7 @@
   "resetAll": {
     "action": "setting",
     "type": "scalar",
-    "value": 0,
+    "value": 1,
     "unit": "",
     "alarm": {
       "value": 0,
@@ -106,7 +106,7 @@
   "watchDog": {
     "action": "reading",
     "type": "scalar",
-    "value": 32,
+    "value": 178,
     "unit": "Hz",
     "alarm": {
       "value": 0,
@@ -146,7 +146,7 @@
   "warningCode": {
     "action": "reading",
     "type": "scalar",
-    "value": 9095,
+    "value": 9071,
     "unit": "",
     "alarm": {
       "value": 4,
@@ -166,7 +166,7 @@
   "powerStatus": {
     "action": "reading",
     "type": "scalar",
-    "value": 1,
+    "value": 0,
     "unit": "",
     "alarm": {
       "value": 0,
