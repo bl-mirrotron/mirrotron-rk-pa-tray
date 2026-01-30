@@ -17,6 +17,3 @@ To develop and test the interface to RF power amplifier without having to power 
 
 <p></p><p style="text-align:center;font-size: large;"><span style="font-weight: bold;color: green;">Figure 1. </span> <span style="font-style: italic;">RF Power Amplifier tray flow with Modbus interface.</span></p>
 <div style="width:100%;text-align:center;"><img width="100%" style="border-style:solid;border-color:#1c6e97;" src="doc/paFlow.png"/></div><br>
-
-<p></p><p style="text-align:center;font-size: large;"><span style="font-weight: bold;color: green;">Figure 2. </span> <span style="font-style: italic;">RF Power Amplifier simulation tray flow with Modbus interface.</span></p>
-<div style="width:100%;text-align:center;"><img width="100%" style="border-style:solid;border-color:#1c6e97;" src="doc/pASimFlow.png"/></div><br>
