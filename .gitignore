@@ -1,3 +1,4 @@
+Dockerfile
 # Logs
 logs
 *.log
@@ -16,5 +17,5 @@ node_modules
 .sessions.json
 .config.json
 *.backup
-.config.nodes.json
+
 
